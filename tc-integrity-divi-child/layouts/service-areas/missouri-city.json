@@ -1,0 +1,164 @@
+{
+  "title": "Eviction Junk Removal & Deep Cleaning in Missouri City, TX",
+  "slug": "missouri-city",
+  "template": "page-service-area",
+  "seo": {
+    "title": "Eviction Junk Removal & Deep Cleaning in Missouri City, TX | T&C Integrity",
+    "meta_description": "Professional eviction cleanout and deep cleaning services in Missouri City, TX. Serving Fort Bend & Harris County landlords with fast turnaround and honest pricing.",
+    "focus_keyphrase": "eviction junk removal Missouri City TX",
+    "secondary_keywords": [
+      "Missouri City junk removal",
+      "deep cleaning Missouri City TX",
+      "eviction cleanout Missouri City",
+      "property cleanout Missouri City Texas",
+      "junk hauling Missouri City",
+      "post eviction cleaning Missouri City"
+    ]
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "fullwidth_header",
+      "settings": {
+        "title": "Missouri City's Reliable Eviction Junk Removal & Deep Cleaning Team",
+        "subhead": "Professional eviction cleanout and deep cleaning for landlords, property managers, and homeowners in Missouri City, TX — serving both Fort Bend and Harris County.",
+        "badge": "Fort Bend & Harris County",
+        "button_one_text": "Get a Free Estimate",
+        "button_one_url": "/contact/",
+        "button_two_text": "Call (555) 123-4567",
+        "button_two_url": "tel:+15551234567"
+      }
+    },
+    {
+      "name": "Breadcrumbs",
+      "type": "text",
+      "content": "<nav class='tc-breadcrumbs' aria-label='Breadcrumb'><a href='/'>Home</a> &rsaquo; <a href='/service-area/'>Service Areas</a> &rsaquo; <strong>Missouri City, TX</strong></nav>"
+    },
+    {
+      "name": "Introduction",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": "2_3__1_3",
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Eviction Junk Removal & Deep Cleaning in Missouri City, Texas</h2><p><strong>T&C Integrity & Reliable Trash Services</strong> provides expert eviction junk removal and professional deep cleaning throughout Missouri City, TX. Straddling the Fort Bend and Harris County line, Missouri City has a diverse rental market — from single-family homes in Sienna and Lake Olympia to apartment complexes along Highway 6 — and each requires a cleanup partner who understands the local landscape.</p><p>We handle the entire eviction recovery process: removing all abandoned property, hauling debris, and deep cleaning every surface so the unit is ready for new tenants. Our combined service saves Missouri City property managers the hassle of coordinating separate junk removal and cleaning crews.</p><h3>Missouri City Service Highlights</h3><ul class='tc-check-list'><li><strong>Two-county coverage</strong> — Fort Bend and Harris County properties</li><li><strong>Community expertise</strong> — Sienna, Lake Olympia, Quail Valley, Palmer Plantation</li><li><strong>24-48 hour turnaround</strong> — Most cleanouts completed in 1-2 days</li><li><strong>One-invoice simplicity</strong> — Junk removal and deep cleaning combined</li><li><strong>Free on-site estimates</strong> — Transparent pricing, no surprises</li><li><strong>Eco-friendly practices</strong> — Donate and recycle before landfill</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<div class='tc-sidebar-cta' style='background:#E8F5E9;padding:30px;border-radius:8px;border-left:4px solid #2E7D32;'><h3 style='color:#1B5E20;margin-top:0;'>Free Missouri City Estimate</h3><p>Tell us about your property for a no-obligation quote.</p><p><a href='/contact/' class='tc-cta-button' style='display:block;text-align:center;'>Request Estimate</a></p><p style='text-align:center;margin-top:15px;'><strong>Call:</strong><br><a href='tel:+15551234567' style='font-size:1.3rem;font-weight:700;color:#1B5E20;'>(555) 123-4567</a></p></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services Grid",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Our Missouri City Services</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Eviction Junk Removal", "description": "Complete removal of all abandoned items from Missouri City eviction properties. Furniture, trash, personal belongings — all gone.", "url": "/services/eviction-junk-removal/" },
+            { "type": "et_pb_blurb", "title": "Post-Eviction Deep Cleaning", "description": "Professional deep cleaning of Missouri City rentals after eviction. Kitchen, baths, floors, walls — sanitized and move-in ready.", "url": "/services/deep-cleaning/" },
+            { "type": "et_pb_blurb", "title": "Furniture & Appliance Removal", "description": "Heavy item hauling across Missouri City. Responsible disposal with donation and recycling prioritized.", "url": "/services/furniture-appliance-removal/" },
+            { "type": "et_pb_blurb", "title": "Full Property Cleanout", "description": "Estate, foreclosure, and rental turnovers in Missouri City. Every room emptied and cleaned.", "url": "/services/property-cleanout/" },
+            { "type": "et_pb_blurb", "title": "Debris & Construction Cleanup", "description": "Post-renovation debris removal for Missouri City properties. All materials hauled to proper disposal.", "url": "/services/debris-cleanup/" },
+            { "type": "et_pb_blurb", "title": "Yard Waste Cleanup", "description": "Overgrown yards and outdoor debris cleared from Missouri City properties to restore curb appeal.", "url": "/services/yard-waste-cleanup/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Missouri City Neighborhoods",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Missouri City Communities We Serve</h2></div><div style='text-align:center;'><p>We serve all Missouri City neighborhoods including <strong>Sienna, Lake Olympia, Quail Valley, Palmer Plantation, Riverstone Ranch, Fondren Park, Hunter's Glen</strong>, and all surrounding areas.</p><p>ZIP codes served: <strong>77459, 77489, 77071</strong></p></div>"
+        }
+      ]
+    },
+    {
+      "name": "FAQ Section — AEO",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Missouri City Junk Removal FAQ</h2></div>"
+        },
+        {
+          "type": "et_pb_accordion",
+          "items": [
+            {
+              "title": "How much does eviction junk removal cost in Missouri City, TX?",
+              "content": "Pricing in Missouri City depends on volume, property size, and services needed. Most single-unit eviction cleanouts range from $300-$1,500. T&C Integrity provides free on-site estimates with transparent, upfront pricing and no hidden fees."
+            },
+            {
+              "title": "How fast can you do an eviction cleanout in Missouri City?",
+              "content": "We offer same-day and next-day service in Missouri City. Most single-unit cleanouts are completed within 24-48 hours of booking."
+            },
+            {
+              "title": "Do you offer deep cleaning after junk removal in Missouri City?",
+              "content": "Yes. We provide combined junk removal and professional deep cleaning — one team, one visit, one invoice. Your Missouri City property will be completely turnover-ready."
+            },
+            {
+              "title": "What areas of Missouri City do you cover?",
+              "content": "We serve all of Missouri City including Sienna, Lake Olympia, Quail Valley, Palmer Plantation, Riverstone Ranch, Fondren Park, and Hunter's Glen. We also serve Sugar Land, Houston, Richmond, and Rosenberg."
+            },
+            {
+              "title": "Are you licensed and insured?",
+              "content": "Yes. T&C Integrity is fully licensed, bonded, and insured with general liability and workers' compensation coverage. All crew members are background-checked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nearby Service Areas",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Nearby Service Areas</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Sugar Land, TX", "url": "/service-area/sugar-land/" },
+            { "type": "et_pb_blurb", "title": "Houston, TX", "url": "/service-area/houston/" },
+            { "type": "et_pb_blurb", "title": "Richmond, TX", "url": "/service-area/richmond/" },
+            { "type": "et_pb_blurb", "title": "Rosenberg, TX", "url": "/service-area/rosenberg/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final CTA",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Need an Eviction Cleanout in Missouri City?",
+          "description": "Free estimates. Same-day service available. Call or click to get started.",
+          "button_text": "Get Your Free Estimate",
+          "button_url": "/contact/"
+        }
+      ]
+    }
+  ]
+}

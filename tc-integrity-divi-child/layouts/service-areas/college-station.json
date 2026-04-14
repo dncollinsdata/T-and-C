@@ -1,0 +1,241 @@
+{
+  "title": "Eviction Junk Removal & Deep Cleaning in College Station, TX",
+  "slug": "college-station",
+  "template": "page-service-area",
+  "seo": {
+    "title": "Eviction Junk Removal & Deep Cleaning in College Station, TX | T&C Integrity",
+    "meta_description": "Professional eviction junk removal and deep cleaning in College Station, TX. Specializing in rental property turnovers near Texas A&M. Student move-out cleanups. Free estimates.",
+    "focus_keyphrase": "eviction junk removal College Station TX",
+    "secondary_keywords": ["College Station junk removal", "deep cleaning College Station TX", "eviction cleanout College Station", "student move out cleaning College Station", "rental turnover College Station", "property cleanout Bryan College Station", "junk removal near Texas A&M"]
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "fullwidth_header",
+      "settings": {
+        "title": "College Station's Expert Eviction Junk Removal & Deep Cleaning",
+        "subhead": "Professional eviction cleanout, student move-out cleanup, and deep cleaning services for College Station, TX landlords and property managers — serving the Bryan-College Station metro and Brazos County.",
+        "badge": "Brazos County | Near Texas A&M",
+        "button_one_text": "Get a Free Estimate",
+        "button_one_url": "/contact/",
+        "button_two_text": "Call (555) 123-4567",
+        "button_two_url": "tel:+15551234567"
+      }
+    },
+    {
+      "name": "Breadcrumbs",
+      "type": "text",
+      "content": "<nav class='tc-breadcrumbs' aria-label='Breadcrumb'><a href='/'>Home</a> &rsaquo; <a href='/service-area/'>Service Areas</a> &rsaquo; <strong>College Station, TX</strong></nav>"
+    },
+    {
+      "name": "Introduction",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": "2_3__1_3",
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Eviction Junk Removal & Deep Cleaning in College Station, Texas</h2><p><strong>T&C Integrity & Reliable Trash Services</strong> provides expert eviction junk removal and professional deep cleaning in College Station, TX. Home to Texas A&M University and a massive student rental market, College Station has unique property turnover demands — from end-of-semester student move-outs to standard eviction cleanouts — and T&C Integrity handles them all.</p><p>College Station's rental landscape is dominated by student housing near campus, single-family rentals in Southwood Valley and Carter Creek, and apartment complexes along University Drive and Texas Avenue. Each property type needs a cleanup partner who understands the local market and can deliver fast, thorough results.</p><h3>Why College Station Landlords Choose T&C</h3><ul class='tc-check-list'><li><strong>Student rental specialists</strong> — We understand the Aggie rental market cycle</li><li><strong>End-of-lease turnovers</strong> — High-volume cleanouts during May and August move periods</li><li><strong>Bryan-College Station coverage</strong> — Full Brazos County service</li><li><strong>24-48 hour turnaround</strong> — Critical for the competitive student housing market</li><li><strong>Combined junk removal + cleaning</strong> — One team, one visit, turnover-ready</li><li><strong>Volume pricing</strong> — Discounts for multi-unit property managers</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<div class='tc-sidebar-cta' style='background:#E8F5E9;padding:30px;border-radius:8px;border-left:4px solid #2E7D32;'><h3 style='color:#1B5E20;margin-top:0;'>Free College Station Estimate</h3><p>Tell us about your rental property for a no-obligation quote.</p><p><a href='/contact/' class='tc-cta-button' style='display:block;text-align:center;'>Request Estimate</a></p><p style='text-align:center;margin-top:15px;'><strong>Call:</strong><br><a href='tel:+15551234567' style='font-size:1.3rem;font-weight:700;color:#1B5E20;'>(555) 123-4567</a></p><hr style='border-color:#81C784;'><p style='font-size:14px;'><strong>Peak Season:</strong> Book early for May & August move-out periods</p></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College Station Specific Services",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Our College Station Services</h2><p>Tailored for the Bryan-College Station rental market — from student housing to family rentals.</p></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            {
+              "type": "et_pb_blurb",
+              "title": "Eviction Junk Removal",
+              "description": "Complete cleanout of College Station eviction properties. All abandoned furniture, belongings, trash, and debris removed and hauled away. From duplexes near Northgate to homes in Southwood Valley.",
+              "url": "/services/eviction-junk-removal/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Student Move-Out Cleanup",
+              "description": "End-of-semester and lease-end cleanouts for student rental properties near Texas A&M. We handle the abandoned furniture, trash, and deep cleaning that comes with student turnovers.",
+              "url": "/services/property-cleanout/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Post-Eviction Deep Cleaning",
+              "description": "Professional deep cleaning of College Station rental units. Kitchen, bathrooms, floors, walls — every surface sanitized and restored to move-in condition for incoming tenants.",
+              "url": "/services/deep-cleaning/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Furniture & Appliance Removal",
+              "description": "Heavy item hauling across College Station and Bryan. Old furniture, broken appliances, mattresses — removed and disposed of responsibly.",
+              "url": "/services/furniture-appliance-removal/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Full Property Cleanout",
+              "description": "Complete estate, foreclosure, and rental cleanouts in the Bryan-College Station area. Every room emptied and cleaned.",
+              "url": "/services/property-cleanout/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Debris & Yard Cleanup",
+              "description": "Post-renovation debris and overgrown yard cleanup for College Station properties. Curb appeal restored for faster leasing.",
+              "url": "/services/debris-cleanup/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College Station Areas",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>College Station & Bryan Areas We Serve</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h4>College Station</h4><ul><li>Northgate</li><li>University Drive corridor</li><li>Southwood Valley</li><li>Wolf Pen Creek</li><li>South College Station</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<h4>College Station (cont.)</h4><ul><li>Carter Creek</li><li>Wellborn</li><li>Century Square area</li><li>Rock Prairie</li><li>Barron Road corridor</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<h4>Bryan & Surrounding</h4><ul><li>Downtown Bryan</li><li>Bryan (all areas)</li><li>Navasota</li><li>Hearne</li><li>Brenham</li></ul>"
+            }
+          ]
+        },
+        {
+          "type": "et_pb_text",
+          "content": "<p class='tc-text-center'>ZIP codes: <strong>77840, 77845, 77842</strong> | Also serving Bryan ZIP codes: <strong>77801, 77802, 77803</strong></p>"
+        }
+      ]
+    },
+    {
+      "name": "Why T&C for College Station",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>The College Station Rental Turnover Challenge</h2><p>College Station's rental market runs on a unique cycle driven by Texas A&M's academic calendar. Every May and August, thousands of leases end simultaneously — creating a massive surge in demand for property turnover services. Landlords who can't get units cleaned and ready fast lose weeks of rent.</p><p>T&C Integrity understands this cycle. We offer:</p><ul class='tc-check-list'><li><strong>Priority booking for peak seasons</strong> — Reserve your May/August slots early</li><li><strong>Multi-unit volume pricing</strong> — Discounts for 3+ units</li><li><strong>24-48 hour turnaround</strong> — Get units listed faster</li><li><strong>Before/after documentation</strong> — Photos for security deposit decisions</li></ul>"
+            },
+            {
+              "type": "et_pb_image",
+              "alt": "T&C Integrity cleaning a College Station rental property",
+              "description": "Place College Station area photo or team photo here"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FAQ — AEO",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>College Station Junk Removal & Cleaning FAQ</h2></div>"
+        },
+        {
+          "type": "et_pb_accordion",
+          "items": [
+            {
+              "title": "How much does eviction junk removal cost in College Station, TX?",
+              "content": "Eviction junk removal pricing in College Station depends on volume, property size, and services needed. Most single-unit cleanouts range from $300-$1,500. T&C Integrity provides free on-site estimates with transparent, upfront pricing. Volume discounts available for property managers with multiple units."
+            },
+            {
+              "title": "How fast can you clean out a rental property in College Station?",
+              "content": "T&C Integrity offers same-day and next-day service in College Station, TX. Most single-unit cleanouts are completed within 24-48 hours. During peak move-out season (May and August), we recommend booking 1-2 weeks in advance."
+            },
+            {
+              "title": "Do you handle student move-out cleanups near Texas A&M?",
+              "content": "Yes. Student move-out cleanup is one of our core services in College Station. We handle abandoned furniture, trash, personal items, and deep cleaning for rental properties near Texas A&M campus, Northgate, and throughout College Station. We offer volume pricing for landlords managing multiple student rental units."
+            },
+            {
+              "title": "Do you offer deep cleaning with junk removal in College Station?",
+              "content": "Yes. We provide combined junk removal and professional deep cleaning — one team, one visit, one invoice. Your College Station rental property will be completely turnover-ready for the next tenant."
+            },
+            {
+              "title": "What areas of College Station and Bryan do you serve?",
+              "content": "We serve all of College Station and Bryan, TX including Northgate, Southwood Valley, Wolf Pen Creek, Carter Creek, Wellborn, University Drive corridor, and all surrounding areas in Brazos County. We also serve Brenham, Navasota, and Hearne."
+            },
+            {
+              "title": "Do you provide before/after photos for security deposit claims?",
+              "content": "Yes. We provide detailed before/after photo documentation at no extra charge. This documentation helps landlords make fair security deposit decisions and serves as evidence if disputes arise."
+            },
+            {
+              "title": "Can you handle multiple units during A&M move-out season?",
+              "content": "Absolutely. We scale our crews during peak season (May and August) to handle high-volume turnover requests. Property managers with 3+ units receive volume discounts and priority scheduling. Contact us early to reserve your slots."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nearby Areas",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Nearby Service Areas</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Brenham, TX", "url": "/service-area/brenham/", "description": "Eviction cleanout and deep cleaning for Washington County." },
+            { "type": "et_pb_blurb", "title": "Houston, TX", "url": "/service-area/houston/", "description": "Full-service junk removal across Houston metro." },
+            { "type": "et_pb_blurb", "title": "Katy, TX", "url": "/service-area/katy/", "description": "Property cleanout services in greater Katy." },
+            { "type": "et_pb_blurb", "title": "Sugar Land, TX", "url": "/service-area/sugar-land/", "description": "Eviction cleanup in Fort Bend County." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final CTA",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Need an Eviction Cleanout or Move-Out Cleanup in College Station?",
+          "description": "Free estimates. Volume discounts for multi-unit properties. Book early for May and August peak season.",
+          "button_text": "Get Your Free Estimate",
+          "button_url": "/contact/",
+          "button_two_text": "Call (555) 123-4567",
+          "button_two_url": "tel:+15551234567"
+        }
+      ]
+    }
+  ]
+}

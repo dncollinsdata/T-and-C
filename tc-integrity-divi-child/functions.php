@@ -428,3 +428,68 @@ $includes_path = TC_CHILD_DIR . '/includes/';
 if ( file_exists( $includes_path . 'template-functions.php' ) ) {
 	require_once $includes_path . 'template-functions.php';
 }
+
+// Include location data for service area pages
+if ( file_exists( $includes_path . 'location-data.php' ) ) {
+	require_once $includes_path . 'location-data.php';
+}
+
+/**
+ * Register page templates from the page-templates directory.
+ */
+function tc_register_page_templates( $templates ) {
+	$templates['page-templates/page-service-area.php'] = __( 'Service Area Page', 'tc-integrity-divi-child' );
+	return $templates;
+}
+add_filter( 'theme_page_templates', 'tc_register_page_templates' );
+
+/**
+ * Resolve the page template file path.
+ */
+function tc_resolve_page_template( $template ) {
+	$page_template = get_page_template_slug();
+	if ( 'page-templates/page-service-area.php' === $page_template ) {
+		$file = TC_CHILD_DIR . '/page-templates/page-service-area.php';
+		if ( file_exists( $file ) ) {
+			return $file;
+		}
+	}
+	return $template;
+}
+add_filter( 'page_template', 'tc_resolve_page_template' );
+
+/**
+ * Override the generic schema on service area pages with location-specific schema.
+ */
+function tc_maybe_disable_generic_schema() {
+	if ( is_page_template( 'page-templates/page-service-area.php' ) ) {
+		remove_action( 'wp_head', 'tc_schema_markup' );
+	}
+}
+add_action( 'template_redirect', 'tc_maybe_disable_generic_schema' );
+
+/**
+ * Add body class for service area pages.
+ */
+function tc_service_area_body_class( $classes ) {
+	if ( is_page_template( 'page-templates/page-service-area.php' ) ) {
+		$classes[] = 'tc-service-area-page';
+	}
+	return $classes;
+}
+add_filter( 'body_class', 'tc_service_area_body_class' );
+
+/**
+ * Generate XML sitemap entries for service area pages (for Yoast or similar).
+ * This adds the service area URLs to the sitemap with high priority.
+ */
+function tc_service_area_sitemap_entries( $url, $type, $object ) {
+	if ( 'page' === $type && is_a( $object, 'WP_Post' ) ) {
+		if ( 'page-templates/page-service-area.php' === get_page_template_slug( $object->ID ) ) {
+			$url['priority'] = 0.8;
+			$url['lastmod']  = gmdate( 'c' );
+		}
+	}
+	return $url;
+}
+add_filter( 'wpseo_sitemap_entry', 'tc_service_area_sitemap_entries', 10, 3 );

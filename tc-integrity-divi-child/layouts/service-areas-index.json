@@ -1,0 +1,51 @@
+{
+  "title": "Service Areas — T&C Integrity & Reliable",
+  "slug": "service-area",
+  "seo": {
+    "title": "Service Areas | Eviction Junk Removal & Deep Cleaning | T&C Integrity",
+    "meta_description": "T&C Integrity provides eviction junk removal and deep cleaning services across Houston, Sugar Land, Missouri City, Katy, Cypress, Richmond, Rosenberg, College Station, and Brenham, TX."
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "fullwidth_header",
+      "settings": {
+        "title": "Areas We Serve",
+        "subhead": "Professional eviction junk removal and deep cleaning services across Greater Houston, Fort Bend County, Brazos County, and Washington County, Texas.",
+        "background_overlay": "rgba(27,94,32,0.88)",
+        "text_orientation": "center"
+      }
+    },
+    {
+      "name": "Service Areas Grid",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Eviction Junk Removal & Deep Cleaning Across Texas</h2><p>T&C Integrity & Reliable Trash Services proudly serves property managers, landlords, and homeowners across these Texas communities. Click your city for local service details, pricing info, and FAQs.</p></div>"
+        },
+        {
+          "type": "custom_html",
+          "content": "<div class='tc-area-grid'><div class='tc-area-card'><div class='tc-area-county'>Harris County</div><h3><a href='/service-area/houston/'>Houston, TX</a></h3><p>Serving 2.3M+ residents across all Houston neighborhoods — Downtown, Galleria, Heights, Memorial, and more.</p><a href='/service-area/houston/' class='tc-service-card-link'>View Houston Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Fort Bend County</div><h3><a href='/service-area/sugar-land/'>Sugar Land, TX</a></h3><p>First Colony, Telfair, Riverstone, New Territory — serving Sugar Land's master-planned communities.</p><a href='/service-area/sugar-land/' class='tc-service-card-link'>View Sugar Land Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Fort Bend & Harris County</div><h3><a href='/service-area/missouri-city/'>Missouri City, TX</a></h3><p>Sienna, Lake Olympia, Quail Valley — eviction cleanout and deep cleaning across Missouri City.</p><a href='/service-area/missouri-city/' class='tc-service-card-link'>View Missouri City Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Harris, Fort Bend & Waller County</div><h3><a href='/service-area/katy/'>Katy, TX</a></h3><p>Cinco Ranch, Cross Creek Ranch, Elyson, Cane Island — serving greater Katy's growing rental market.</p><a href='/service-area/katy/' class='tc-service-card-link'>View Katy Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Harris County</div><h3><a href='/service-area/cypress/'>Cypress, TX</a></h3><p>Bridgeland, Towne Lake, Fairfield — NW Harris County's trusted eviction cleanup partner.</p><a href='/service-area/cypress/' class='tc-service-card-link'>View Cypress Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Fort Bend County</div><h3><a href='/service-area/richmond/'>Richmond, TX</a></h3><p>Harvest Green, Aliana, Long Meadow Farms — affordable cleanout services for the Fort Bend County seat.</p><a href='/service-area/richmond/' class='tc-service-card-link'>View Richmond Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Fort Bend County</div><h3><a href='/service-area/rosenberg/'>Rosenberg, TX</a></h3><p>Brazos Town Center, Downtown Rosenberg — fast, fair eviction junk removal and cleaning.</p><a href='/service-area/rosenberg/' class='tc-service-card-link'>View Rosenberg Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Brazos County</div><h3><a href='/service-area/college-station/'>College Station, TX</a></h3><p>Texas A&M area rental turnovers, student move-out cleanups, and eviction cleanouts.</p><a href='/service-area/college-station/' class='tc-service-card-link'>View College Station Services</a></div><div class='tc-area-card'><div class='tc-area-county'>Washington County</div><h3><a href='/service-area/brenham/'>Brenham, TX</a></h3><p>Blinn College area rentals and Washington County properties — small-town service, professional results.</p><a href='/service-area/brenham/' class='tc-service-card-link'>View Brenham Services</a></div></div>"
+        }
+      ]
+    },
+    {
+      "name": "CTA",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Don't See Your City?",
+          "description": "We're always expanding our service area. Contact us to check availability in your location.",
+          "button_text": "Contact Us",
+          "button_url": "/contact/",
+          "button_two_text": "Call (555) 123-4567",
+          "button_two_url": "tel:+15551234567"
+        }
+      ]
+    }
+  ]
+}

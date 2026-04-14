@@ -822,6 +822,144 @@ a.tc-read-more:hover {
   color: var(--tc-primary-dark);
 }
 
+/* --- Breadcrumbs --- */
+.tc-breadcrumbs {
+  padding: 15px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #999;
+}
+
+.tc-breadcrumbs a {
+  color: var(--tc-primary);
+  text-decoration: none;
+}
+
+.tc-breadcrumbs a:hover {
+  color: var(--tc-primary-dark);
+  text-decoration: underline;
+}
+
+/* --- Service Area Page Styles --- */
+.tc-service-area-page .tc-sidebar-cta {
+  position: sticky;
+  top: 100px;
+}
+
+/* FAQ accordion (native HTML details/summary for non-Divi fallback) */
+.tc-faq-item {
+  background: var(--tc-white);
+  border: 1px solid #e8e8e8;
+  border-radius: var(--tc-radius);
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: var(--tc-transition);
+}
+
+.tc-faq-item:hover {
+  border-color: var(--tc-light-green);
+}
+
+.tc-faq-item summary {
+  padding: 18px 24px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: var(--tc-dark-text);
+  list-style: none;
+  position: relative;
+  padding-right: 50px;
+}
+
+.tc-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.tc-faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--tc-primary);
+  transition: var(--tc-transition);
+}
+
+.tc-faq-item[open] summary::after {
+  content: '\2212';
+  color: var(--tc-accent);
+}
+
+.tc-faq-item[open] summary {
+  border-bottom: 1px solid #e8e8e8;
+  color: var(--tc-primary);
+}
+
+.tc-faq-item p {
+  padding: 18px 24px;
+  margin: 0;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Service area grid for index page */
+.tc-area-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.tc-area-card {
+  background: var(--tc-white);
+  border-radius: var(--tc-radius);
+  padding: 30px;
+  box-shadow: var(--tc-shadow);
+  transition: var(--tc-transition);
+  text-align: center;
+  border-top: 4px solid var(--tc-accent);
+}
+
+.tc-area-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--tc-shadow-hover);
+}
+
+.tc-area-card h3 {
+  color: var(--tc-primary-dark);
+  margin-bottom: 8px;
+}
+
+.tc-area-card h3 a {
+  color: var(--tc-primary-dark);
+  text-decoration: none;
+}
+
+.tc-area-card h3 a:hover {
+  color: var(--tc-primary);
+}
+
+.tc-area-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.tc-area-card .tc-area-county {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--tc-accent);
+  margin-bottom: 10px;
+}
+
 /* --- Utility Classes --- */
 .tc-text-center { text-align: center; }
 .tc-text-white { color: var(--tc-white); }

@@ -1,0 +1,157 @@
+{
+  "title": "Eviction Junk Removal & Deep Cleaning in Richmond, TX",
+  "slug": "richmond",
+  "template": "page-service-area",
+  "seo": {
+    "title": "Eviction Junk Removal & Deep Cleaning in Richmond, TX | T&C Integrity",
+    "meta_description": "Affordable eviction junk removal and deep cleaning in Richmond, TX. Serving the Fort Bend County seat with professional, insured cleanup crews. Free estimates.",
+    "focus_keyphrase": "eviction junk removal Richmond TX",
+    "secondary_keywords": ["Richmond junk removal", "deep cleaning Richmond TX", "eviction cleanout Richmond", "property cleanout Richmond Texas", "Richmond trash removal"]
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "fullwidth_header",
+      "settings": {
+        "title": "Richmond's Dependable Eviction Junk Removal & Deep Cleaning Service",
+        "subhead": "Affordable, professional eviction cleanout and deep cleaning for landlords and property managers in Richmond, TX — the heart of Fort Bend County.",
+        "badge": "Fort Bend County Seat",
+        "button_one_text": "Get a Free Estimate",
+        "button_one_url": "/contact/",
+        "button_two_text": "Call (555) 123-4567",
+        "button_two_url": "tel:+15551234567"
+      }
+    },
+    {
+      "name": "Breadcrumbs",
+      "type": "text",
+      "content": "<nav class='tc-breadcrumbs' aria-label='Breadcrumb'><a href='/'>Home</a> &rsaquo; <a href='/service-area/'>Service Areas</a> &rsaquo; <strong>Richmond, TX</strong></nav>"
+    },
+    {
+      "name": "Introduction",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": "2_3__1_3",
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Eviction Junk Removal & Deep Cleaning in Richmond, Texas</h2><p><strong>T&C Integrity & Reliable Trash Services</strong> provides professional eviction junk removal and deep cleaning in Richmond, TX — the Fort Bend County seat. Richmond's growing population and expanding neighborhoods like Harvest Green, Aliana, and Long Meadow Farms mean more rental properties and more demand for reliable turnover services.</p><p>We serve Richmond landlords with a complete eviction recovery solution: removing all abandoned items, hauling debris, and deep cleaning the entire property to move-in condition. Our combined service eliminates the need to coordinate multiple vendors.</p><h3>Why Richmond Property Owners Choose T&C</h3><ul class='tc-check-list'><li><strong>Fort Bend County expertise</strong> — We know Richmond's property market</li><li><strong>Growing community coverage</strong> — Harvest Green, Aliana, Long Meadow Farms, Pecan Grove</li><li><strong>Fast turnaround</strong> — Most cleanouts completed in 24-48 hours</li><li><strong>Combined service</strong> — Junk removal + deep cleaning, one invoice</li><li><strong>Affordable pricing</strong> — Free estimates, no hidden fees</li><li><strong>Fully insured</strong> — Licensed, bonded, workers' comp covered</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<div class='tc-sidebar-cta' style='background:#E8F5E9;padding:30px;border-radius:8px;border-left:4px solid #2E7D32;'><h3 style='color:#1B5E20;margin-top:0;'>Free Richmond Estimate</h3><p><a href='/contact/' class='tc-cta-button' style='display:block;text-align:center;'>Request Estimate</a></p><p style='text-align:center;margin-top:15px;'><strong>Call:</strong><br><a href='tel:+15551234567' style='font-size:1.3rem;font-weight:700;color:#1B5E20;'>(555) 123-4567</a></p></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Our Richmond Services</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Eviction Junk Removal", "description": "Complete removal of abandoned belongings and debris from Richmond eviction properties.", "url": "/services/eviction-junk-removal/" },
+            { "type": "et_pb_blurb", "title": "Post-Eviction Deep Cleaning", "description": "Professional deep cleaning of Richmond rentals. Every surface restored to move-in condition.", "url": "/services/deep-cleaning/" },
+            { "type": "et_pb_blurb", "title": "Furniture & Appliance Removal", "description": "Heavy item hauling throughout Richmond. Responsible, eco-friendly disposal.", "url": "/services/furniture-appliance-removal/" },
+            { "type": "et_pb_blurb", "title": "Full Property Cleanout", "description": "Estate, foreclosure, and rental cleanouts in Richmond. Every room cleared and cleaned.", "url": "/services/property-cleanout/" },
+            { "type": "et_pb_blurb", "title": "Debris Removal", "description": "Post-renovation and construction debris hauled from Richmond properties.", "url": "/services/debris-cleanup/" },
+            { "type": "et_pb_blurb", "title": "Yard Cleanup", "description": "Outdoor junk and vegetation cleared from Richmond properties.", "url": "/services/yard-waste-cleanup/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communities",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Richmond Communities We Serve</h2></div><div style='text-align:center;'><p>Serving <strong>Harvest Green, Aliana, Long Meadow Farms, Veranda, Brazos Town Center, Pecan Grove</strong>, and all Richmond neighborhoods.</p><p>ZIP codes: <strong>77406, 77407, 77469</strong></p></div>"
+        }
+      ]
+    },
+    {
+      "name": "FAQ — AEO",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Richmond Eviction Junk Removal FAQ</h2></div>"
+        },
+        {
+          "type": "et_pb_accordion",
+          "items": [
+            {
+              "title": "How much does eviction junk removal cost in Richmond, TX?",
+              "content": "Most single-unit eviction cleanouts in Richmond range from $300-$1,500 depending on volume and property size. T&C Integrity provides free on-site estimates with transparent, upfront pricing."
+            },
+            {
+              "title": "How fast can you do an eviction cleanout in Richmond?",
+              "content": "Same-day and next-day service available. Most Richmond cleanouts completed within 24-48 hours of booking."
+            },
+            {
+              "title": "Do you offer deep cleaning with junk removal in Richmond?",
+              "content": "Yes. Combined junk removal and deep cleaning — one team, one visit, one invoice. Your Richmond property will be completely turnover-ready."
+            },
+            {
+              "title": "What Richmond areas do you serve?",
+              "content": "All of Richmond including Harvest Green, Aliana, Long Meadow Farms, Veranda, Brazos Town Center, and Pecan Grove. We also serve Rosenberg, Sugar Land, Missouri City, and Katy."
+            },
+            {
+              "title": "Are you licensed and insured?",
+              "content": "Yes. Fully licensed, bonded, and insured with general liability and workers' comp. Background-checked crew members."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nearby Areas",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Nearby Service Areas</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Rosenberg, TX", "url": "/service-area/rosenberg/" },
+            { "type": "et_pb_blurb", "title": "Sugar Land, TX", "url": "/service-area/sugar-land/" },
+            { "type": "et_pb_blurb", "title": "Missouri City, TX", "url": "/service-area/missouri-city/" },
+            { "type": "et_pb_blurb", "title": "Katy, TX", "url": "/service-area/katy/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final CTA",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Need an Eviction Cleanout in Richmond?",
+          "description": "Free estimates for Richmond properties. Same-day service available.",
+          "button_text": "Get Your Free Estimate",
+          "button_url": "/contact/"
+        }
+      ]
+    }
+  ]
+}

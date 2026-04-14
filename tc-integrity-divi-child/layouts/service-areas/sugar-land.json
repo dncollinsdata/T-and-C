@@ -1,0 +1,222 @@
+{
+  "title": "Eviction Junk Removal & Deep Cleaning in Sugar Land, TX",
+  "slug": "sugar-land",
+  "template": "page-service-area",
+  "seo": {
+    "title": "Eviction Junk Removal & Deep Cleaning in Sugar Land, TX | T&C Integrity",
+    "meta_description": "Fast, reliable eviction junk removal and deep cleaning in Sugar Land, TX. Licensed & insured team serving Fort Bend County property managers. Free on-site estimates.",
+    "focus_keyphrase": "eviction junk removal Sugar Land TX",
+    "secondary_keywords": [
+      "Sugar Land junk removal",
+      "deep cleaning Sugar Land TX",
+      "eviction cleanout Sugar Land",
+      "property cleanout Sugar Land Texas",
+      "junk hauling Sugar Land",
+      "Sugar Land trash removal",
+      "post eviction cleaning Sugar Land"
+    ]
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "fullwidth_header",
+      "settings": {
+        "title": "Sugar Land's Premier Eviction Cleanout & Deep Cleaning Service",
+        "subhead": "Professional eviction junk removal and deep cleaning for property managers, landlords, and homeowners throughout Sugar Land, TX and Fort Bend County.",
+        "badge": "Serving Fort Bend County",
+        "button_one_text": "Get a Free Estimate",
+        "button_one_url": "/contact/",
+        "button_two_text": "Call (555) 123-4567",
+        "button_two_url": "tel:+15551234567",
+        "background_overlay": "rgba(27,94,32,0.88)"
+      }
+    },
+    {
+      "name": "Breadcrumbs",
+      "type": "text",
+      "content": "<nav class='tc-breadcrumbs' aria-label='Breadcrumb'><a href='/'>Home</a> &rsaquo; <a href='/service-area/'>Service Areas</a> &rsaquo; <strong>Sugar Land, TX</strong></nav>"
+    },
+    {
+      "name": "Introduction — AEO Optimized",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": "2_3__1_3",
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Eviction Junk Removal & Deep Cleaning in Sugar Land, Texas</h2><p><strong>T&C Integrity & Reliable Trash Services</strong> provides fast, professional eviction junk removal and deep cleaning services throughout Sugar Land, TX and Fort Bend County. As one of Texas's most desirable suburbs, Sugar Land's competitive rental market demands quick property turnovers — and that's exactly what we deliver.</p><p>Sugar Land's growing rental inventory — across master-planned communities like First Colony, New Territory, Telfair, and Riverstone — means property managers need a dependable partner for eviction cleanouts. T&C Integrity handles the complete process: removing all abandoned belongings, hauling debris, and deep cleaning the unit to move-in condition — all in one coordinated visit.</p><h3>Why Sugar Land Property Managers Choose Us</h3><ul class='tc-check-list'><li><strong>Fort Bend County specialists</strong> — We know Sugar Land's property landscape</li><li><strong>Master-planned community experience</strong> — First Colony, Telfair, Riverstone, Sweetwater</li><li><strong>Combined service</strong> — Junk removal + deep cleaning in one visit</li><li><strong>HOA-compliant work</strong> — Clean, professional presence in your community</li><li><strong>Upfront pricing</strong> — Free estimates with no hidden fees</li><li><strong>Same-day availability</strong> — Because vacancies cost money</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<div class='tc-sidebar-cta' style='background:#E8F5E9;padding:30px;border-radius:8px;border-left:4px solid #2E7D32;'><h3 style='color:#1B5E20;margin-top:0;'>Free Sugar Land Estimate</h3><p>Describe your property and we'll provide a no-obligation quote.</p><p><a href='/contact/' class='tc-cta-button' style='display:block;text-align:center;'>Request Estimate</a></p><p style='text-align:center;margin-top:15px;'><strong>Or call:</strong><br><a href='tel:+15551234567' style='font-size:1.3rem;font-weight:700;color:#1B5E20;'>(555) 123-4567</a></p></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services Grid",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Our Sugar Land Services</h2><p>Comprehensive eviction recovery and cleaning solutions tailored for Sugar Land's rental market.</p></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            {
+              "type": "et_pb_blurb",
+              "title": "Eviction Junk Removal",
+              "description": "Complete removal of abandoned furniture, belongings, trash, and debris from Sugar Land rental properties. Studios to multi-bedroom homes.",
+              "url": "/services/eviction-junk-removal/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Post-Eviction Deep Cleaning",
+              "description": "Professional deep cleaning of Sugar Land properties after eviction. Every surface sanitized and restored to show-ready condition.",
+              "url": "/services/deep-cleaning/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Furniture & Appliance Hauling",
+              "description": "Heavy item removal throughout Sugar Land. We handle all lifting and dispose of items responsibly — donations first, recycling second.",
+              "url": "/services/furniture-appliance-removal/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Full Property Cleanout",
+              "description": "Complete estate, foreclosure, and rental cleanouts in Sugar Land. Every room cleared and cleaned.",
+              "url": "/services/property-cleanout/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Construction Debris Removal",
+              "description": "Post-renovation cleanup for Sugar Land properties. Drywall, lumber, tile, and construction materials hauled away.",
+              "url": "/services/debris-cleanup/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Yard & Outdoor Cleanup",
+              "description": "Overgrown landscaping, fallen branches, and outdoor debris cleared from Sugar Land properties to meet HOA standards.",
+              "url": "/services/yard-waste-cleanup/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sugar Land Neighborhoods",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Sugar Land Communities We Serve</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<ul><li>First Colony</li><li>New Territory</li><li>Telfair</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<ul><li>Riverstone</li><li>Sweetwater</li><li>Sugar Creek</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<ul><li>Greatwood</li><li>Imperial</li><li>Oyster Creek</li></ul>"
+            }
+          ]
+        },
+        {
+          "type": "et_pb_text",
+          "content": "<p class='tc-text-center'>Serving all Sugar Land ZIP codes: <strong>77478, 77479, 77498, 77496</strong></p>"
+        }
+      ]
+    },
+    {
+      "name": "FAQ Section — AEO Optimized",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Sugar Land Eviction Junk Removal FAQ</h2></div>"
+        },
+        {
+          "type": "et_pb_accordion",
+          "items": [
+            {
+              "title": "How much does eviction junk removal cost in Sugar Land, TX?",
+              "content": "Eviction junk removal pricing in Sugar Land depends on the volume of items, property size, and services needed. T&C Integrity provides free, no-obligation on-site estimates with transparent, upfront pricing. Most single-unit eviction cleanouts in Sugar Land range from $300-$1,500 depending on scope. We never charge hidden fees."
+            },
+            {
+              "title": "How fast can you do an eviction cleanout in Sugar Land?",
+              "content": "T&C Integrity offers same-day and next-day eviction cleanout service in Sugar Land, TX. Most single-unit cleanouts are completed within 24-48 hours of booking. For urgent situations, call us directly for priority scheduling."
+            },
+            {
+              "title": "Do you offer deep cleaning after junk removal in Sugar Land?",
+              "content": "Yes. T&C Integrity is one of the few companies in Sugar Land that offers both junk removal and professional deep cleaning as a combined service. One team, one schedule, one invoice — saving you time and money."
+            },
+            {
+              "title": "What Sugar Land neighborhoods do you serve?",
+              "content": "We serve all of Sugar Land, TX including First Colony, New Territory, Telfair, Riverstone, Sweetwater, Sugar Creek, Greatwood, Imperial, and Oyster Creek. We also serve nearby cities including Houston, Missouri City, Richmond, and Rosenberg."
+            },
+            {
+              "title": "Are you licensed and insured in Sugar Land?",
+              "content": "Yes. T&C Integrity is fully licensed, bonded, and insured with general liability and workers' compensation coverage for your complete protection. All team members are background-checked."
+            },
+            {
+              "title": "Do you handle HOA-managed properties in Sugar Land?",
+              "content": "Absolutely. Many of our Sugar Land clients are in HOA-managed master-planned communities. We maintain a clean, professional presence — no loud equipment outside of approved hours, clean trucks, uniformed crew, and we leave the exterior spotless."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nearby Service Areas",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Nearby Service Areas</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Houston, TX", "url": "/service-area/houston/", "description": "Full-service junk removal and deep cleaning across Houston." },
+            { "type": "et_pb_blurb", "title": "Missouri City, TX", "url": "/service-area/missouri-city/", "description": "Eviction cleanout services for Missouri City landlords." },
+            { "type": "et_pb_blurb", "title": "Richmond, TX", "url": "/service-area/richmond/", "description": "Property cleanup for Richmond and Fort Bend County." },
+            { "type": "et_pb_blurb", "title": "Rosenberg, TX", "url": "/service-area/rosenberg/", "description": "Reliable eviction junk removal in Rosenberg." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final CTA",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Need an Eviction Cleanout in Sugar Land?",
+          "description": "Get a free estimate for your Sugar Land property today. Same-day service available.",
+          "button_text": "Get Your Free Estimate",
+          "button_url": "/contact/"
+        }
+      ]
+    }
+  ]
+}

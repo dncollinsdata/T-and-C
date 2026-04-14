@@ -1,0 +1,157 @@
+{
+  "title": "Eviction Junk Removal & Deep Cleaning in Cypress, TX",
+  "slug": "cypress",
+  "template": "page-service-area",
+  "seo": {
+    "title": "Eviction Junk Removal & Deep Cleaning in Cypress, TX | T&C Integrity",
+    "meta_description": "Dependable eviction junk removal and deep cleaning services in Cypress, TX. Serving NW Harris County property managers and landlords. Licensed, insured, eco-friendly.",
+    "focus_keyphrase": "eviction junk removal Cypress TX",
+    "secondary_keywords": ["Cypress junk removal", "deep cleaning Cypress TX", "eviction cleanout Cypress", "property cleanout Cypress Texas", "Cypress trash removal"]
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "fullwidth_header",
+      "settings": {
+        "title": "Cypress's Trusted Eviction Cleanout & Deep Cleaning Crew",
+        "subhead": "Dependable eviction junk removal and professional deep cleaning for property managers and landlords throughout Cypress, TX and NW Harris County.",
+        "badge": "NW Harris County",
+        "button_one_text": "Get a Free Estimate",
+        "button_one_url": "/contact/",
+        "button_two_text": "Call (555) 123-4567",
+        "button_two_url": "tel:+15551234567"
+      }
+    },
+    {
+      "name": "Breadcrumbs",
+      "type": "text",
+      "content": "<nav class='tc-breadcrumbs' aria-label='Breadcrumb'><a href='/'>Home</a> &rsaquo; <a href='/service-area/'>Service Areas</a> &rsaquo; <strong>Cypress, TX</strong></nav>"
+    },
+    {
+      "name": "Introduction",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": "2_3__1_3",
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Eviction Junk Removal & Deep Cleaning in Cypress, Texas</h2><p><strong>T&C Integrity & Reliable Trash Services</strong> serves Cypress, TX with fast, professional eviction junk removal and deep cleaning. As one of the Houston metro's fastest-growing communities, Cypress has seen its rental inventory expand rapidly — with master-planned communities like Bridgeland, Towne Lake, and Fairfield adding thousands of rental properties that need reliable turnover support.</p><p>When Cypress landlords need eviction cleanup done right, T&C Integrity delivers. We remove all abandoned belongings, haul away debris, and deep clean the property to move-in condition — all in a single coordinated service call.</p><h3>Why Cypress Landlords Choose T&C</h3><ul class='tc-check-list'><li><strong>NW Harris County specialists</strong> — Deep knowledge of Cypress communities</li><li><strong>Bridgeland, Towne Lake, Fairfield</strong> — Experienced in planned communities</li><li><strong>Same-day response</strong> — Minimize your vacancy time</li><li><strong>Combined junk removal + cleaning</strong> — One team, one visit</li><li><strong>Transparent quotes</strong> — Free estimates with no hidden fees</li><li><strong>Eco-friendly disposal</strong> — Donations and recycling prioritized</li></ul>"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<div class='tc-sidebar-cta' style='background:#E8F5E9;padding:30px;border-radius:8px;border-left:4px solid #2E7D32;'><h3 style='color:#1B5E20;margin-top:0;'>Free Cypress Estimate</h3><p>Tell us about your Cypress property.</p><p><a href='/contact/' class='tc-cta-button' style='display:block;text-align:center;'>Request Estimate</a></p><p style='text-align:center;margin-top:15px;'><strong>Call:</strong><br><a href='tel:+15551234567' style='font-size:1.3rem;font-weight:700;color:#1B5E20;'>(555) 123-4567</a></p></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Our Cypress Services</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Eviction Junk Removal", "description": "Complete cleanout of Cypress eviction properties. All abandoned items, furniture, trash, and debris removed.", "url": "/services/eviction-junk-removal/" },
+            { "type": "et_pb_blurb", "title": "Post-Eviction Deep Cleaning", "description": "Professional deep cleaning for Cypress rentals. Every surface sanitized and restored to show-ready condition.", "url": "/services/deep-cleaning/" },
+            { "type": "et_pb_blurb", "title": "Furniture & Appliance Removal", "description": "Heavy item hauling in Cypress. Responsible disposal with donation and recycling first.", "url": "/services/furniture-appliance-removal/" },
+            { "type": "et_pb_blurb", "title": "Property Cleanout", "description": "Full estate, foreclosure, and rental cleanouts in Cypress. Every room cleared.", "url": "/services/property-cleanout/" },
+            { "type": "et_pb_blurb", "title": "Debris Removal", "description": "Construction and renovation debris hauled from Cypress properties.", "url": "/services/debris-cleanup/" },
+            { "type": "et_pb_blurb", "title": "Yard Cleanup", "description": "Outdoor junk and overgrown vegetation cleared from Cypress properties.", "url": "/services/yard-waste-cleanup/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Communities",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Cypress Communities We Serve</h2></div><div style='text-align:center;'><p>Serving <strong>Bridgeland, Towne Lake, Fairfield, Cypress Creek Lakes, Lakewood Forest, Stone Gate, Cypress Falls, Longwood,</strong> and all Cypress-area neighborhoods.</p><p>ZIP codes: <strong>77429, 77433, 77095</strong></p></div>"
+        }
+      ]
+    },
+    {
+      "name": "FAQ — AEO",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Cypress Eviction Junk Removal FAQ</h2></div>"
+        },
+        {
+          "type": "et_pb_accordion",
+          "items": [
+            {
+              "title": "How much does eviction junk removal cost in Cypress, TX?",
+              "content": "Most single-unit eviction cleanouts in Cypress range from $300-$1,500 depending on volume and property size. T&C Integrity provides free on-site estimates with transparent pricing and no hidden fees."
+            },
+            {
+              "title": "How fast can you clean out an eviction in Cypress?",
+              "content": "Same-day and next-day service available in Cypress. Most cleanouts completed within 24-48 hours of booking."
+            },
+            {
+              "title": "Do you combine junk removal with deep cleaning in Cypress?",
+              "content": "Yes. We offer combined junk removal and professional deep cleaning — one team, one visit, one invoice. Your Cypress property will be completely turnover-ready."
+            },
+            {
+              "title": "What Cypress neighborhoods do you serve?",
+              "content": "We serve all Cypress communities including Bridgeland, Towne Lake, Fairfield, Cypress Creek Lakes, Lakewood Forest, Stone Gate, and all surrounding areas. We also serve Houston, Katy, Spring, and Tomball."
+            },
+            {
+              "title": "Are you insured for work in Cypress, TX?",
+              "content": "Yes. Fully licensed, bonded, and insured with general liability and workers' compensation. All crew members are background-checked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nearby Areas",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Nearby Service Areas</h2></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            { "type": "et_pb_blurb", "title": "Houston, TX", "url": "/service-area/houston/" },
+            { "type": "et_pb_blurb", "title": "Katy, TX", "url": "/service-area/katy/" },
+            { "type": "et_pb_blurb", "title": "Sugar Land, TX", "url": "/service-area/sugar-land/" },
+            { "type": "et_pb_blurb", "title": "Missouri City, TX", "url": "/service-area/missouri-city/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Final CTA",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Need an Eviction Cleanout in Cypress?",
+          "description": "Free estimates. Same-day service available for Cypress properties.",
+          "button_text": "Get Your Free Estimate",
+          "button_url": "/contact/"
+        }
+      ]
+    }
+  ]
+}
