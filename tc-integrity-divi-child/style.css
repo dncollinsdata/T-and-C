@@ -1,0 +1,25 @@
+/*
+ Theme Name:   T&C Integrity & Reliable - Divi Child
+ Theme URI:    https://tcintegritytrash.com
+ Description:  Custom Divi child theme for T&C Integrity & Reliable Trash Services — Eviction Junk Removal and Deep Cleaning specialists.
+ Author:       T&C Integrity & Reliable
+ Author URI:   https://tcintegritytrash.com
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  tc-integrity-divi-child
+
+ Brand Colors (derived from logo):
+   Primary Dark Green:   #1B5E20
+   Primary Green:        #2E7D32
+   Accent Green:         #4CAF50
+   Light Green:          #81C784
+   Dark Text:            #1a2e1a
+   Body Text:            #333333
+   Light Background:     #f5f9f3
+   White:                #ffffff
+*/
+
+/* This file intentionally left minimal — all custom styles are in assets/css/custom-styles.css
+   which is enqueued via functions.php for better caching and organization. */

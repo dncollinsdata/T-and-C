@@ -1,0 +1,117 @@
+{
+  "title": "T&C Integrity — Contact Page Layout",
+  "description": "Divi Builder layout for the Contact page.",
+  "sections": [
+    {
+      "name": "Page Hero",
+      "type": "fullwidth",
+      "module": "et_pb_fullwidth_header",
+      "settings": {
+        "title": "Contact Us",
+        "subhead": "Get a free estimate or schedule your eviction cleanout and deep cleaning today.",
+        "background_overlay_color": "rgba(27,94,32,0.85)",
+        "text_orientation": "center"
+      }
+    },
+    {
+      "name": "Contact Info + Form",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Get in Touch</h2><p>Ready to get started? Fill out the form and we'll get back to you within 1 business hour during operating hours. For urgent requests, give us a call.</p><div style='margin: 30px 0;'><h4>Phone</h4><p><a href='tel:+15551234567' class='tc-phone-btn'><span class='tc-phone-icon'>&#9742;</span> (555) 123-4567</a></p></div><div style='margin: 30px 0;'><h4>Email</h4><p><a href='mailto:info@tcintegritytrash.com'>info@tcintegritytrash.com</a></p></div><div style='margin: 30px 0;'><h4>Hours of Operation</h4><p>Monday - Saturday: 7:00 AM - 7:00 PM<br>Sunday: By Appointment Only</p></div><div style='margin: 30px 0;'><h4>Service Area</h4><p>Serving the greater metro area and surrounding communities. Contact us to confirm availability in your location.</p></div>"
+            },
+            {
+              "type": "et_pb_contact_form",
+              "title": "Request a Free Estimate",
+              "fields": [
+                { "field_id": "Name", "field_title": "Your Name", "required": true },
+                { "field_id": "Email", "field_title": "Email Address", "field_type": "email", "required": true },
+                { "field_id": "Phone", "field_title": "Phone Number", "required": true },
+                { "field_id": "Service", "field_title": "Service Needed", "field_type": "select", "options": [
+                  "Eviction Junk Removal",
+                  "Deep Cleaning",
+                  "Furniture & Appliance Removal",
+                  "Full Property Cleanout",
+                  "Debris & Construction Cleanup",
+                  "Yard Waste Cleanup",
+                  "Other"
+                ]},
+                { "field_id": "PropertyType", "field_title": "Property Type", "field_type": "select", "options": [
+                  "Apartment / Condo",
+                  "Single Family Home",
+                  "Townhouse",
+                  "Commercial Property",
+                  "Storage Unit",
+                  "Other"
+                ]},
+                { "field_id": "Message", "field_title": "Tell Us About Your Project", "field_type": "text", "fullwidth": true }
+              ],
+              "submit_text": "Request Free Estimate",
+              "success_message": "Thank you! We've received your request and will contact you within 1 business hour."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Map Section",
+      "type": "regular",
+      "modules": [
+        {
+          "type": "et_pb_map",
+          "description": "Add your business location Google Map here. Configure the address in Divi Builder settings."
+        }
+      ]
+    },
+    {
+      "name": "FAQ",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Frequently Asked Questions</h2></div>"
+        },
+        {
+          "type": "et_pb_accordion",
+          "items": [
+            {
+              "title": "How quickly can you schedule a cleanout?",
+              "content": "We offer same-day and next-day service for most jobs. For eviction cleanouts, we understand urgency is key — call us and we'll work to accommodate your timeline."
+            },
+            {
+              "title": "How much does eviction junk removal cost?",
+              "content": "Pricing depends on the volume of items, property size, and services needed. We provide free, no-obligation on-site estimates. There are no hidden fees — the price we quote is the price you pay."
+            },
+            {
+              "title": "Do you offer deep cleaning with junk removal?",
+              "content": "Yes! We're one of the few companies that offers both junk removal AND professional deep cleaning as a combined service. This means one team, one schedule, one invoice — saving you time and money."
+            },
+            {
+              "title": "What happens to the items you remove?",
+              "content": "We're committed to responsible disposal. Usable items are donated to local charities and shelters. Recyclable materials go to appropriate facilities. We minimize landfill waste wherever possible."
+            },
+            {
+              "title": "Are you licensed and insured?",
+              "content": "Absolutely. T&C Integrity & Reliable is fully licensed, bonded, and insured with general liability and workers' compensation coverage for your complete protection."
+            },
+            {
+              "title": "Do you work with property management companies?",
+              "content": "Yes — property managers are one of our primary clients. We offer volume discounts, priority scheduling, and dedicated account support for property management companies with multiple units."
+            },
+            {
+              "title": "What areas do you serve?",
+              "content": "We serve the greater metro area and surrounding communities. Contact us to confirm service availability in your specific location. We're always expanding our service area."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

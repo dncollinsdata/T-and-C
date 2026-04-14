@@ -1,0 +1,136 @@
+{
+  "title": "T&C Integrity — Services Page Layout",
+  "description": "Divi Builder layout for the main Services page.",
+  "sections": [
+    {
+      "name": "Page Hero",
+      "type": "fullwidth",
+      "module": "et_pb_fullwidth_header",
+      "settings": {
+        "title": "Our Services",
+        "subhead": "Comprehensive junk removal and deep cleaning solutions for every property need.",
+        "background_overlay_color": "rgba(27,94,32,0.85)",
+        "text_orientation": "center"
+      }
+    },
+    {
+      "name": "Eviction Junk Removal",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_image",
+              "description": "Eviction cleanout before/after photo"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Eviction Junk Removal</h2><p>When tenants leave behind a mess, we make it disappear. Our eviction junk removal service is designed specifically for landlords and property managers who need fast, reliable turnover.</p><h4>What We Remove:</h4><ul class='tc-check-list'><li>Abandoned furniture and personal belongings</li><li>Old mattresses, box springs, and bedding</li><li>Appliances (refrigerators, stoves, washers, dryers)</li><li>Electronics and e-waste</li><li>Trash bags, loose debris, and clutter</li><li>Hazardous materials (with proper handling)</li></ul><p><strong>Typical turnaround:</strong> 1-2 days from booking to completion.</p><a href='/contact/' class='tc-cta-button'>Schedule a Cleanout</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deep Cleaning",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Deep Cleaning Services</h2><p>Our professional deep cleaning goes far beyond surface-level tidying. We restore properties to move-in ready condition with thorough sanitation and attention to every detail.</p><h4>Our Deep Clean Includes:</h4><ul class='tc-check-list'><li>Kitchen deep clean — cabinets, appliances, counters, floors</li><li>Bathroom sanitization — toilets, tubs, tile, grout</li><li>Floor cleaning — sweep, mop, vacuum all surfaces</li><li>Wall and baseboard washing</li><li>Window and sill cleaning (interior)</li><li>Carpet shampooing and stain treatment</li><li>Odor removal and deodorizing</li><li>Light fixture and vent cleaning</li></ul><p>Perfect for post-eviction, move-out, estate, and property rehab situations.</p><a href='/contact/' class='tc-cta-button'>Book a Deep Clean</a>"
+            },
+            {
+              "type": "et_pb_image",
+              "description": "Deep cleaning action photo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Furniture & Appliance Removal",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_image",
+              "description": "Furniture removal photo"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Furniture & Appliance Removal</h2><p>Heavy, bulky items that regular trash services won't take? That's our specialty. We safely remove and responsibly dispose of large items from any floor of your property.</p><h4>Items We Handle:</h4><ul class='tc-check-list'><li>Sofas, recliners, and sectionals</li><li>Mattresses and bed frames</li><li>Dining tables, desks, and dressers</li><li>Refrigerators, ovens, dishwashers</li><li>Washers, dryers, and water heaters</li><li>TVs, computers, and electronics</li></ul><p>We donate usable items to local charities and recycle materials whenever possible.</p><a href='/contact/' class='tc-cta-button'>Get a Quote</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Property Cleanout",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Full Property Cleanout</h2><p>Whether it's an estate cleanout, foreclosure, hoarding situation, or rental property turnover — we clear it all. Our team works efficiently to empty entire properties from top to bottom.</p><h4>We Handle:</h4><ul class='tc-check-list'><li>Estate and inheritance cleanouts</li><li>Foreclosure property clearing</li><li>Hoarding cleanup (compassionate, discreet)</li><li>Rental property turnovers</li><li>Garage, attic, and basement clearing</li><li>Storage unit cleanouts</li></ul><a href='/contact/' class='tc-cta-button'>Schedule a Cleanout</a>"
+            },
+            {
+              "type": "et_pb_image",
+              "description": "Property cleanout photo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Debris & Yard Cleanup",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_image",
+              "description": "Debris cleanup photo"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Debris Removal & Yard Cleanup</h2><p>From construction leftovers to overgrown yards, we haul it all away so your property looks its best.</p><h4>Services Include:</h4><ul class='tc-check-list'><li>Construction and renovation debris</li><li>Drywall, lumber, tile, and flooring removal</li><li>Yard waste — branches, stumps, leaves</li><li>Old fencing, sheds, and outdoor structures</li><li>Hot tub and play equipment removal</li><li>Gravel, dirt, and concrete hauling</li></ul><a href='/contact/' class='tc-cta-button'>Get a Free Estimate</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CTA Banner",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Need a Custom Solution?",
+          "description": "Every property is different. Contact us for a personalized plan and free estimate tailored to your specific needs.",
+          "button_text": "Contact Us Today",
+          "button_url": "/contact/"
+        }
+      ]
+    }
+  ]
+}

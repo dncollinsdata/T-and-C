@@ -1,0 +1,14 @@
+/* T&C Integrity — Admin Styles */
+
+.post-type-tc_service .page-title-action,
+.post-type-tc_testimonial .page-title-action {
+  background: #2E7D32;
+  border-color: #2E7D32;
+  color: #fff;
+}
+
+.post-type-tc_service .page-title-action:hover,
+.post-type-tc_testimonial .page-title-action:hover {
+  background: #1B5E20;
+  border-color: #1B5E20;
+}

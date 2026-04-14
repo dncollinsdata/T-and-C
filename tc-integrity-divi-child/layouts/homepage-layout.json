@@ -1,0 +1,263 @@
+{
+  "title": "T&C Integrity — Homepage Layout",
+  "description": "Divi Builder layout for the T&C Integrity homepage. Import via Divi > Divi Library > Import & Export.",
+  "sections": [
+    {
+      "name": "Hero Section",
+      "type": "fullwidth",
+      "module": "et_pb_fullwidth_header",
+      "settings": {
+        "title": "Professional Eviction Junk Removal & Deep Cleaning",
+        "subhead": "T&C Integrity & Reliable Trash Services — trusted by property managers, landlords, and homeowners for fast, thorough, and affordable cleanout solutions.",
+        "button_one_text": "Get a Free Estimate",
+        "button_one_url": "/contact/",
+        "button_two_text": "Call Now",
+        "button_two_url": "tel:+15551234567",
+        "background_overlay_color": "rgba(27,94,32,0.85)",
+        "text_orientation": "center",
+        "header_fullscreen": "on",
+        "content_orientation": "center"
+      },
+      "css_classes": "tc-hero-section"
+    },
+    {
+      "name": "Trust Bar",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            {
+              "type": "et_pb_blurb",
+              "title": "Licensed & Insured",
+              "icon": "&#xe003;",
+              "description": "Fully licensed and insured for your protection and peace of mind."
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Eco-Friendly",
+              "icon": "&#xe037;",
+              "description": "We recycle and donate usable items to minimize landfill waste."
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Same-Day Service",
+              "icon": "&#xe023;",
+              "description": "Urgent cleanout? We offer same-day and next-day scheduling."
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Upfront Pricing",
+              "icon": "&#xe016;",
+              "description": "No hidden fees. Get a transparent quote before any work begins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Core Services",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Our Services</h2><p>From eviction cleanouts to deep cleaning — we handle it all with integrity and professionalism.</p></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            {
+              "type": "et_pb_blurb",
+              "title": "Eviction Junk Removal",
+              "icon": "&#xe092;",
+              "description": "Complete property cleanouts after eviction. We remove all debris, abandoned belongings, and hazardous materials, leaving the unit turnover-ready.",
+              "url": "/services/eviction-junk-removal/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Deep Cleaning Services",
+              "icon": "&#xe08e;",
+              "description": "Professional deep cleaning for post-eviction, move-in/move-out, and property rehabilitation. Every surface sanitized and restored.",
+              "url": "/services/deep-cleaning/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Furniture & Appliance Removal",
+              "icon": "&#xe0ee;",
+              "description": "Heavy items hauled away responsibly. Couches, mattresses, refrigerators, washers — we handle the heavy lifting so you don't have to.",
+              "url": "/services/furniture-appliance-removal/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Property Cleanout",
+              "icon": "&#xe0e8;",
+              "description": "Full estate or rental property cleanouts. We clear everything from attic to basement efficiently and dispose of items responsibly.",
+              "url": "/services/property-cleanout/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Debris & Construction Cleanup",
+              "icon": "&#xe0ec;",
+              "description": "Post-renovation and construction debris removal. Drywall, lumber, tile, flooring — removed and hauled to proper disposal facilities.",
+              "url": "/services/debris-cleanup/"
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Yard Waste & Outdoor Cleanup",
+              "icon": "&#xe037;",
+              "description": "Overgrown yards, fallen branches, old fencing, and outdoor junk cleared to improve curb appeal and property value.",
+              "url": "/services/yard-waste-cleanup/"
+            }
+          ]
+        },
+        {
+          "type": "et_pb_button",
+          "text": "View All Services",
+          "url": "/services/",
+          "alignment": "center"
+        }
+      ]
+    },
+    {
+      "name": "How It Works",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>How It Works</h2><p>Getting started is easy. Three simple steps to a clean property.</p></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "css_class": "tc-process-steps",
+          "modules": [
+            {
+              "type": "et_pb_blurb",
+              "title": "Book Your Estimate",
+              "description": "Call us or fill out our online form. We'll schedule a free, no-obligation on-site estimate at a time that works for you."
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "We Do the Work",
+              "description": "Our professional crew arrives on time, removes all junk, and performs deep cleaning as needed. We handle everything from start to finish."
+            },
+            {
+              "type": "et_pb_blurb",
+              "title": "Property Ready",
+              "description": "Once we're done, your property is clean, sanitized, and ready for new tenants, sale, or renovation. We even do a final walkthrough with you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stats Counter Bar",
+      "type": "regular",
+      "background_gradient": "linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%)",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 4,
+          "modules": [
+            { "type": "et_pb_number_counter", "number": "500", "title": "Properties Cleaned", "percent_sign": "off" },
+            { "type": "et_pb_number_counter", "number": "100", "title": "5-Star Reviews", "percent_sign": "off" },
+            { "type": "et_pb_number_counter", "number": "10", "title": "Years Experience", "percent_sign": "off" },
+            { "type": "et_pb_number_counter", "number": "98", "title": "% Customer Satisfaction", "percent_sign": "on" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Why Choose T&C",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_row",
+          "columns": 2,
+          "modules": [
+            {
+              "type": "et_pb_image",
+              "description": "Place a team or truck photo here"
+            },
+            {
+              "type": "et_pb_text",
+              "content": "<h2>Why Choose T&C Integrity?</h2><p>We built our reputation on doing things right — with honesty, hard work, and attention to detail. When you hire T&C, you get a team that treats your property like their own.</p><ul class='tc-check-list'><li>Fully licensed, bonded, and insured</li><li>Background-checked, professional crew</li><li>Eco-friendly disposal and recycling</li><li>Transparent, upfront pricing — no surprises</li><li>Same-day and emergency service available</li><li>Serving property managers, realtors, and homeowners</li></ul><a href='/contact/' class='tc-cta-button'>Get Your Free Estimate</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Testimonials",
+      "type": "regular",
+      "background": "#f5f9f3",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>What Our Clients Say</h2><p>Don't just take our word for it — hear from the property managers and homeowners we've served.</p></div>"
+        },
+        {
+          "type": "et_pb_row",
+          "columns": 3,
+          "modules": [
+            {
+              "type": "et_pb_testimonial",
+              "author": "Sarah M.",
+              "job_title": "Property Manager",
+              "body": "T&C handled an eviction cleanout for me and had the unit turnover-ready in less than 24 hours. Professional, thorough, and affordable. They're my go-to from now on."
+            },
+            {
+              "type": "et_pb_testimonial",
+              "author": "Marcus J.",
+              "job_title": "Landlord",
+              "body": "I've used several junk removal companies and T&C is by far the best. Their deep cleaning service is top-notch — the apartment looked brand new when they were done."
+            },
+            {
+              "type": "et_pb_testimonial",
+              "author": "Linda P.",
+              "job_title": "Homeowner",
+              "body": "After my mother passed, T&C helped clear out her house with care and respect. They donated what they could and disposed of the rest responsibly. I can't thank them enough."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CTA Banner",
+      "type": "regular",
+      "css_class": "tc-cta-banner",
+      "modules": [
+        {
+          "type": "et_pb_cta",
+          "title": "Ready for a Clean Start?",
+          "description": "Get a free, no-obligation estimate today. We'll have your property looking its best — fast.",
+          "button_text": "Get a Free Estimate",
+          "button_url": "/contact/",
+          "button_two_text": "Call (555) 123-4567",
+          "button_two_url": "tel:+15551234567"
+        }
+      ]
+    },
+    {
+      "name": "Service Areas",
+      "type": "regular",
+      "background": "#ffffff",
+      "modules": [
+        {
+          "type": "et_pb_text",
+          "content": "<div class='tc-section-title'><h2>Areas We Serve</h2><p>Proudly providing eviction junk removal and deep cleaning services throughout the greater metro area.</p></div>"
+        },
+        {
+          "type": "et_pb_text",
+          "content": "<p class='tc-text-center'>Contact us to confirm service availability in your area. We're always expanding our reach to serve more communities.</p>"
+        }
+      ]
+    }
+  ]
+}
