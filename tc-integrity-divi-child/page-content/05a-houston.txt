@@ -1,0 +1,81 @@
+================================================================================
+HOUSTON, TX — Service Area Page Content
+Use with 05-service-area-template.txt
+================================================================================
+
+SEO TITLE: Eviction Junk Removal & Deep Cleaning in Houston, TX | T&C Integrity
+META DESCRIPTION: Professional eviction junk removal and deep cleaning services in Houston, TX. Same-day service, upfront pricing, eco-friendly disposal. Free estimates for property managers and landlords.
+FOCUS KEYPHRASE: eviction junk removal Houston TX
+
+HERO_TITLE: Houston's Trusted Eviction Junk Removal & Deep Cleaning Experts
+HERO_SUBTITLE: Fast, professional, and affordable eviction cleanout and deep cleaning services for property managers, landlords, and homeowners across Houston, TX and Harris County.
+COUNTY: Serving All of Harris County
+
+INTRO_CONTENT:
+<h2>Eviction Junk Removal & Deep Cleaning in Houston, Texas</h2>
+<p><strong>T&C Integrity & Reliable Trash Services</strong> is Houston's premier provider of eviction junk removal and professional deep cleaning services. We help property managers, landlords, real estate investors, and homeowners across Houston and Harris County turn over properties quickly and affordably.</p>
+<p>Houston's massive rental market — with over 600,000 rental units across the metro — means eviction cleanouts are a constant need. When tenants leave behind furniture, trash, personal belongings, and damaged property, T&C Integrity handles the entire cleanup process: junk removal, hauling, deep cleaning, and sanitation — all in a single visit.</p>
+<h3>What Sets Us Apart in Houston</h3>
+<ul>
+<li><strong>Same-day and next-day service</strong> — We understand Houston's fast-paced rental market</li>
+<li><strong>One-stop solution</strong> — Junk removal AND deep cleaning from one insured team</li>
+<li><strong>All of Houston covered</strong> — From Downtown to Katy, Cypress to Clear Lake</li>
+<li><strong>Transparent pricing</strong> — Free on-site estimates with no hidden fees</li>
+<li><strong>Eco-friendly disposal</strong> — We donate and recycle before landfill</li>
+<li><strong>Property-ready results</strong> — Units left in show-ready condition</li>
+</ul>
+
+SERVICES_SUBTITLE: Complete eviction recovery and property cleaning solutions for Houston's rental market.
+
+SVC_EVICTION: Complete removal of abandoned belongings, furniture, trash, and debris from evicted Houston rental units. We handle everything from studio apartments to multi-family complexes.
+SVC_CLEANING: Professional sanitization and deep cleaning of Houston properties after eviction. Kitchen, bathrooms, floors, walls, windows — every surface restored to move-in condition.
+SVC_FURNITURE: Heavy item hauling across Houston. Couches, mattresses, refrigerators, washers — we handle the lifting and responsible disposal so you don't have to.
+SVC_CLEANOUT: Estate cleanouts, foreclosure clearing, and complete rental turnovers across Houston. Attic to garage, we clear every room and haul everything away.
+SVC_DEBRIS: Post-renovation cleanup for Houston properties. Drywall, lumber, tile, flooring — removed and taken to proper disposal facilities.
+SVC_YARD: Houston's heat and humidity mean fast-growing yards. We clear overgrown vegetation, fallen branches, old fencing, and outdoor junk to restore curb appeal.
+
+NEIGHBORHOODS_CONTENT:
+(3-column layout)
+Column 1:
+<h4>Inner Loop</h4>
+<ul><li>Downtown Houston</li><li>Midtown</li><li>Montrose</li><li>The Heights</li><li>River Oaks</li><li>East End / EaDo</li></ul>
+
+Column 2:
+<h4>West & Southwest</h4>
+<ul><li>Galleria / Uptown</li><li>Memorial</li><li>Spring Branch</li><li>Westchase</li><li>Sharpstown</li><li>Alief</li></ul>
+
+Column 3:
+<h4>South & Southeast</h4>
+<ul><li>Meyerland</li><li>Bellaire</li><li>Third Ward</li><li>Gulfton</li><li>South Houston</li><li>Pasadena</li></ul>
+
+Also serving: Greenspoint, North Houston, Kingwood, Clear Lake, Pearland, Stafford
+
+ZIP_CODES: 77001, 77002, 77003, 77004, 77005, 77006, 77007, 77008, 77009, 77010, 77011, 77012, 77013, 77014, 77015, 77016, 77017, 77018, 77019, 77020
+
+FAQ_ITEMS:
+Q: How much does eviction junk removal cost in Houston, TX?
+A: Eviction junk removal pricing in Houston depends on the volume of items, property size, and services needed. T&C Integrity provides free, no-obligation on-site estimates with transparent, upfront pricing. Most single-unit eviction cleanouts range from $300-$1,500 depending on scope. We never charge hidden fees — the price we quote is the price you pay.
+
+Q: How fast can you do an eviction cleanout in Houston?
+A: T&C Integrity offers same-day and next-day eviction cleanout service in Houston, TX. Most single-unit cleanouts are completed within 24-48 hours of booking. For urgent situations, call us directly at (555) 123-4567 for priority scheduling.
+
+Q: Do you offer deep cleaning after junk removal in Houston?
+A: Yes. T&C Integrity is one of the few companies in Houston that offers both junk removal and professional deep cleaning as a combined service. Our deep clean includes kitchen degreasing, bathroom sanitization, floor cleaning, wall washing, carpet shampooing, odor removal, and vent cleaning. One team, one schedule, one invoice.
+
+Q: What areas of Houston do you serve?
+A: T&C Integrity serves all of Houston, TX and surrounding areas in Harris County. This includes Downtown, Midtown, Montrose, The Heights, Galleria, Memorial, Spring Branch, Sharpstown, Westchase, Greenspoint, Gulfton, Alief, Bellaire, Meyerland, and all other neighborhoods. We also serve Sugar Land, Missouri City, Katy, and Cypress.
+
+Q: Are you licensed and insured in Houston?
+A: Absolutely. T&C Integrity is fully licensed, bonded, and insured with general liability and workers' compensation coverage. All crew members are background-checked. We carry proper disposal permits for Harris County.
+
+Q: What do you do with items removed from Houston properties?
+A: We donate usable items to local Houston charities and shelters, recycle materials at appropriate facilities, and only send items to the landfill as a last resort. Disposal documentation available upon request.
+
+Q: Do you work with property management companies in Houston?
+A: Yes — property managers are among our primary clients in Houston. We offer volume discounts for multiple units, priority scheduling, before/after photo documentation, and dedicated account support.
+
+NEARBY_LINKS:
+- Sugar Land, TX → /service-area/sugar-land/ — Fort Bend County's largest city
+- Missouri City, TX → /service-area/missouri-city/ — Fort Bend & Harris County
+- Katy, TX → /service-area/katy/ — Greater Katy & west Houston
+- Cypress, TX → /service-area/cypress/ — NW Harris County

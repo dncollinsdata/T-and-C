@@ -1,0 +1,273 @@
+================================================================================
+T&C INTEGRITY — HOMEPAGE
+Build in Divi 5 Visual Builder
+================================================================================
+
+Each section below maps to a Divi section. Add the modules listed,
+paste the content, and apply the noted settings.
+
+================================================================================
+SECTION 1: HERO (Fullwidth Header Module)
+Background: #1B5E20 with overlay rgba(27,94,32,0.85)
+Layout: Fullscreen, center aligned
+================================================================================
+
+Title:
+Professional Eviction Junk Removal & Deep Cleaning
+
+Subtitle:
+T&C Integrity & Reliable Trash Services — trusted by property managers, landlords, and homeowners for fast, thorough, and affordable cleanout solutions.
+
+Button 1: Get a Free Estimate → /contact/
+Button 2: Call Now → tel:+15551234567
+
+Settings:
+- Title font: Montserrat, 48px, Extra Bold, White
+- Subtitle font: Open Sans, 18px, White 95% opacity
+- Button 1: Green bg (#4CAF50), white text, 50px radius
+- Button 2: Transparent bg, white border, 50px radius
+
+
+================================================================================
+SECTION 2: TRUST BAR (4-column row of Blurb modules)
+Background: #f5f9f3
+Padding: 60px top/bottom
+================================================================================
+
+Column 1 — Blurb Module:
+  Icon: Lock/shield icon, color #2E7D32
+  Title: Licensed & Insured
+  Body: Fully licensed and insured for your protection and peace of mind.
+
+Column 2 — Blurb Module:
+  Icon: Leaf/recycle icon, color #2E7D32
+  Title: Eco-Friendly
+  Body: We recycle and donate usable items to minimize landfill waste.
+
+Column 3 — Blurb Module:
+  Icon: Clock icon, color #2E7D32
+  Title: Same-Day Service
+  Body: Urgent cleanout? We offer same-day and next-day scheduling.
+
+Column 4 — Blurb Module:
+  Icon: Price tag icon, color #2E7D32
+  Title: Upfront Pricing
+  Body: No hidden fees. Get a transparent quote before any work begins.
+
+Settings:
+- All blurbs: center aligned, Montserrat bold headers (#1B5E20)
+
+
+================================================================================
+SECTION 3: OUR SERVICES (Text + 6 Blurb modules in 2 rows of 3)
+Background: #ffffff
+Padding: 80px top/bottom
+================================================================================
+
+Section Heading (Text Module, centered):
+<h2>Our Services</h2>
+<p>From eviction cleanouts to deep cleaning — we handle it all with integrity and professionalism.</p>
+
+Row 1, Column 1 — Blurb:
+  Title: Eviction Junk Removal
+  Body: Complete property cleanouts after eviction. We remove all debris, abandoned belongings, and hazardous materials, leaving the unit turnover-ready.
+  Link: /services/eviction-junk-removal/
+
+Row 1, Column 2 — Blurb:
+  Title: Deep Cleaning Services
+  Body: Professional deep cleaning for post-eviction, move-in/move-out, and property rehabilitation. Every surface sanitized and restored.
+  Link: /services/deep-cleaning/
+
+Row 1, Column 3 — Blurb:
+  Title: Furniture & Appliance Removal
+  Body: Heavy items hauled away responsibly. Couches, mattresses, refrigerators, washers — we handle the heavy lifting so you don't have to.
+  Link: /services/furniture-appliance-removal/
+
+Row 2, Column 1 — Blurb:
+  Title: Property Cleanout
+  Body: Full estate or rental property cleanouts. We clear everything from attic to basement efficiently and dispose of items responsibly.
+  Link: /services/property-cleanout/
+
+Row 2, Column 2 — Blurb:
+  Title: Debris & Construction Cleanup
+  Body: Post-renovation and construction debris removal. Drywall, lumber, tile, flooring — removed and hauled to proper disposal facilities.
+  Link: /services/debris-cleanup/
+
+Row 2, Column 3 — Blurb:
+  Title: Yard Waste & Outdoor Cleanup
+  Body: Overgrown yards, fallen branches, old fencing, and outdoor junk cleared to improve curb appeal and property value.
+  Link: /services/yard-waste-cleanup/
+
+Button (centered):
+  Text: View All Services → /services/
+  Style: Green bg (#4CAF50), white text, 50px radius
+
+
+================================================================================
+SECTION 4: HOW IT WORKS (Text + 3 Blurb modules)
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Section Heading (Text Module, centered):
+<h2>How It Works</h2>
+<p>Getting started is easy. Three simple steps to a clean property.</p>
+
+Column 1 — Blurb:
+  Icon: Phone icon, white on green circle (#2E7D32)
+  Title: 1. Book Your Estimate
+  Body: Call us or fill out our online form. We'll schedule a free, no-obligation on-site estimate at a time that works for you.
+
+Column 2 — Blurb:
+  Icon: Tools/wrench icon, white on green circle (#2E7D32)
+  Title: 2. We Do the Work
+  Body: Our professional crew arrives on time, removes all junk, and performs deep cleaning as needed. We handle everything from start to finish.
+
+Column 3 — Blurb:
+  Icon: Checkmark icon, white on green circle (#2E7D32)
+  Title: 3. Property Ready
+  Body: Once we're done, your property is clean, sanitized, and ready for new tenants, sale, or renovation. We do a final walkthrough with you.
+
+Settings:
+- All centered, Montserrat bold headers
+
+
+================================================================================
+SECTION 5: STATS COUNTER (4-column Number Counter modules)
+Background: Gradient #1B5E20 → #2E7D32 (135deg)
+Padding: 50px top/bottom
+================================================================================
+
+Column 1 — Number Counter:
+  Number: 500
+  Label: Properties Cleaned
+  Percent sign: OFF
+
+Column 2 — Number Counter:
+  Number: 100
+  Label: 5-Star Reviews
+  Percent sign: OFF
+
+Column 3 — Number Counter:
+  Number: 10
+  Label: Years Experience
+  Percent sign: OFF
+
+Column 4 — Number Counter:
+  Number: 98
+  Label: Satisfaction Rate
+  Percent sign: ON (shows 98%)
+
+Settings:
+- Numbers: Montserrat, 48px, Extra Bold, White
+- Labels: Montserrat, 14px, Semi-bold, Uppercase, #81C784
+
+
+================================================================================
+SECTION 6: WHY CHOOSE US (2-column: Image + Text)
+Background: #ffffff
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Image Module:
+  Upload your team photo or truck photo
+  Alt text: T&C Integrity junk removal team
+  Border radius: 8px, add subtle box shadow
+
+Column 2 — Text Module:
+<h2>Why Choose T&C Integrity?</h2>
+<p>We built our reputation on doing things right — with honesty, hard work, and attention to detail. When you hire T&C, you get a team that treats your property like their own.</p>
+<ul>
+<li>Fully licensed, bonded, and insured</li>
+<li>Background-checked, professional crew</li>
+<li>Eco-friendly disposal and recycling</li>
+<li>Transparent, upfront pricing — no surprises</li>
+<li>Same-day and emergency service available</li>
+<li>Serving property managers, realtors, and homeowners</li>
+</ul>
+
+Column 2 — Button Module:
+  Text: Get Your Free Estimate → /contact/
+  Style: Green bg (#4CAF50), white text, 50px radius
+
+
+================================================================================
+SECTION 7: TESTIMONIALS (Text + 3 Testimonial modules)
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Section Heading (Text Module, centered):
+<h2>What Our Clients Say</h2>
+<p>Don't just take our word for it — hear from the property managers and homeowners we've served.</p>
+
+Column 1 — Testimonial Module:
+  Quote: T&C handled an eviction cleanout for me and had the unit turnover-ready in less than 24 hours. Professional, thorough, and affordable. They're my go-to from now on.
+  Author: Sarah M.
+  Title: Property Manager
+
+Column 2 — Testimonial Module:
+  Quote: I've used several junk removal companies and T&C is by far the best. Their deep cleaning service is top-notch — the apartment looked brand new when they were done.
+  Author: Marcus J.
+  Title: Landlord
+
+Column 3 — Testimonial Module:
+  Quote: After my mother passed, T&C helped clear out her house with care and respect. They donated what they could and disposed of the rest responsibly. I can't thank them enough.
+  Author: Linda P.
+  Title: Homeowner
+
+
+================================================================================
+SECTION 8: CTA BANNER (Call to Action Module)
+Background: Gradient #1B5E20 → #2E7D32 (135deg)
+Padding: 70px top/bottom
+================================================================================
+
+Title: Ready for a Clean Start?
+Body: Get a free, no-obligation estimate today. We'll have your property looking its best — fast.
+Button: Get a Free Estimate → /contact/
+
+Settings:
+- Title: Montserrat, 36px, Extra Bold, White
+- Body: Open Sans, 18px, White 90% opacity
+- Button: Green bg (#4CAF50), white text, 50px radius
+- Transparent module background
+
+
+================================================================================
+SECTION 9: SERVICE AREAS (Text + 3-column text list + Button)
+Background: #ffffff
+Padding: 60px top/bottom
+================================================================================
+
+Section Heading (Text Module, centered):
+<h2>Areas We Serve</h2>
+<p>Proudly providing eviction junk removal and deep cleaning services across Greater Houston and Central Texas.</p>
+
+Column 1 — Text Module:
+<h4>Houston Metro</h4>
+<ul>
+<li><a href="/service-area/houston/">Houston</a></li>
+<li><a href="/service-area/sugar-land/">Sugar Land</a></li>
+<li><a href="/service-area/missouri-city/">Missouri City</a></li>
+</ul>
+
+Column 2 — Text Module:
+<h4>West Houston</h4>
+<ul>
+<li><a href="/service-area/katy/">Katy</a></li>
+<li><a href="/service-area/cypress/">Cypress</a></li>
+<li><a href="/service-area/richmond/">Richmond</a></li>
+</ul>
+
+Column 3 — Text Module:
+<h4>Central Texas</h4>
+<ul>
+<li><a href="/service-area/rosenberg/">Rosenberg</a></li>
+<li><a href="/service-area/college-station/">College Station</a></li>
+<li><a href="/service-area/brenham/">Brenham</a></li>
+</ul>
+
+Button (centered):
+  Text: View All Service Areas → /service-area/
+  Style: Outline, green border (#2E7D32), green text, 50px radius

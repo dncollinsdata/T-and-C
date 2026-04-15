@@ -1,0 +1,91 @@
+================================================================================
+T&C INTEGRITY — CONTACT PAGE
+Build in Divi 5 Visual Builder
+================================================================================
+
+================================================================================
+SECTION 1: HERO (Fullwidth Header)
+Background: #1B5E20 with overlay rgba(27,94,32,0.85)
+Padding: 120px top/bottom
+================================================================================
+
+Title: Contact Us
+Subtitle: Get a free estimate or schedule your eviction cleanout and deep cleaning today.
+
+
+================================================================================
+SECTION 2: CONTACT INFO + FORM (2-column)
+Background: #ffffff
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Text Module:
+<h2>Get in Touch</h2>
+<p>Ready to get started? Fill out the form and we'll get back to you within 1 business hour during operating hours. For urgent requests, give us a call.</p>
+
+<h4>Phone</h4>
+<p><a href="tel:+15551234567">(555) 123-4567</a></p>
+
+<h4>Email</h4>
+<p><a href="mailto:info@tcintegritytrash.com">info@tcintegritytrash.com</a></p>
+
+<h4>Hours of Operation</h4>
+<p>Monday - Saturday: 7:00 AM - 7:00 PM<br>Sunday: By Appointment Only</p>
+
+<h4>Service Area</h4>
+<p>Serving Houston, Sugar Land, Missouri City, Katy, Cypress, Richmond, Rosenberg, College Station, Brenham, and surrounding communities.</p>
+
+Column 2 — Contact Form Module:
+  Title: Request a Free Estimate
+  Fields:
+    - Your Name (text, required)
+    - Email Address (email, required)
+    - Phone Number (text, required)
+    - Service Needed (dropdown):
+        Eviction Junk Removal
+        Deep Cleaning
+        Furniture & Appliance Removal
+        Full Property Cleanout
+        Debris Cleanup
+        Yard Waste Cleanup
+        Other
+    - Tell Us About Your Project (textarea, full width)
+  Submit button text: Request Free Estimate
+  Button style: Green bg (#4CAF50), white text, 50px radius
+
+
+================================================================================
+SECTION 3: FAQ ACCORDION
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Section Heading (Text Module, centered):
+<h2>Frequently Asked Questions</h2>
+
+Accordion Module — Add these items:
+
+Q: How quickly can you schedule a cleanout?
+A: We offer same-day and next-day service for most jobs. For eviction cleanouts, we understand urgency is key — call us and we'll work to accommodate your timeline.
+
+Q: How much does eviction junk removal cost?
+A: Pricing depends on the volume of items, property size, and services needed. We provide free, no-obligation on-site estimates. There are no hidden fees — the price we quote is the price you pay.
+
+Q: Do you offer deep cleaning with junk removal?
+A: Yes! We're one of the few companies that offers both junk removal AND professional deep cleaning as a combined service. This means one team, one schedule, one invoice — saving you time and money.
+
+Q: What happens to the items you remove?
+A: We're committed to responsible disposal. Usable items are donated to local charities and shelters. Recyclable materials go to appropriate facilities. We minimize landfill waste wherever possible.
+
+Q: Are you licensed and insured?
+A: Absolutely. T&C Integrity & Reliable is fully licensed, bonded, and insured with general liability and workers' compensation coverage for your complete protection.
+
+Q: Do you work with property management companies?
+A: Yes — property managers are one of our primary clients. We offer volume discounts, priority scheduling, and dedicated account support for property management companies with multiple units.
+
+Q: What areas do you serve?
+A: We serve Houston, Sugar Land, Missouri City, Katy, Cypress, Richmond, Rosenberg, College Station, Brenham, and surrounding communities. Contact us to confirm service availability in your specific location.
+
+Settings:
+- Toggle title font: Montserrat, Semi-bold, #1B5E20
+- Body font: Open Sans

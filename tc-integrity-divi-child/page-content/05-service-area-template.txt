@@ -1,0 +1,136 @@
+================================================================================
+T&C INTEGRITY — SERVICE AREA PAGE TEMPLATE
+Build in Divi 5 Visual Builder
+================================================================================
+
+Use this template for ALL 9 city pages. For each city, swap the
+placeholder text [CITY], [COUNTY], etc. with values from the
+individual city files (05a through 05i).
+
+SEO: Set the Yoast/SEO title and meta description from each city file.
+
+================================================================================
+SECTION 1: HERO (Fullwidth Header)
+Background: #1B5E20 with overlay rgba(27,94,32,0.88)
+Padding: 140px top/bottom
+================================================================================
+
+Title: [HERO_TITLE]
+Subtitle: [HERO_SUBTITLE]
+Button 1: Get a Free Estimate → /contact/
+Button 2: Call (555) 123-4567 → tel:+15551234567
+
+Settings: Montserrat 44px Extra Bold White, centered
+Badge text (small text above title): [COUNTY]
+
+
+================================================================================
+SECTION 2: BREADCRUMBS (Text Module)
+Background: #ffffff
+Padding: 10px top, 0 bottom
+================================================================================
+
+Text Module:
+Home > Service Areas > [CITY], TX
+
+(Link "Home" to / and "Service Areas" to /service-area/)
+
+
+================================================================================
+SECTION 3: INTRO (2-column: 2/3 text + 1/3 sidebar CTA)
+Background: #ffffff
+Padding: 40px top, 80px bottom
+================================================================================
+
+Column 1 (2/3 width) — Text Module:
+[INTRO_CONTENT]
+
+Column 2 (1/3 width) — Text Module (sticky sidebar):
+  Background: #E8F5E9
+  Left border: 4px solid #2E7D32
+  Padding: 30px
+  Border radius: 8px
+
+  Content:
+  <h3 style="color:#1B5E20;">Free [CITY] Estimate</h3>
+  <p>Tell us about your property for a no-obligation quote.</p>
+  <p><a href="/contact/">Request Estimate</a></p> (style as green button)
+  <p><strong>Or call:</strong><br><a href="tel:+15551234567">(555) 123-4567</a></p>
+  <p><strong>Hours:</strong> Mon-Sat 7AM-7PM</p>
+
+
+================================================================================
+SECTION 4: SERVICES GRID (6 Blurb modules, 2 rows of 3)
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Section Heading (centered):
+<h2>Our [CITY] Services</h2>
+<p>[SERVICES_SUBTITLE]</p>
+
+Row 1:
+  Blurb 1: Eviction Junk Removal — [SVC_EVICTION]
+  Blurb 2: Post-Eviction Deep Cleaning — [SVC_CLEANING]
+  Blurb 3: Furniture & Appliance Removal — [SVC_FURNITURE]
+
+Row 2:
+  Blurb 4: Full Property Cleanout — [SVC_CLEANOUT]
+  Blurb 5: Construction Debris Removal — [SVC_DEBRIS]
+  Blurb 6: Yard Waste Cleanup — [SVC_YARD]
+
+Link each to the matching /services/ page.
+
+
+================================================================================
+SECTION 5: NEIGHBORHOODS (Text modules)
+Background: #ffffff
+Padding: 60px top/bottom
+================================================================================
+
+Section Heading (centered):
+<h2>[CITY] Communities We Serve</h2>
+
+[NEIGHBORHOODS_CONTENT]
+
+ZIP codes: [ZIP_CODES]
+
+
+================================================================================
+SECTION 6: FAQ ACCORDION (AEO optimized)
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Section Heading (centered):
+<h2>[CITY] Eviction Junk Removal FAQ</h2>
+
+[FAQ_ITEMS]
+
+Settings:
+- Toggle title: Montserrat, Semi-bold, #1B5E20
+- Body: Open Sans, #555
+
+
+================================================================================
+SECTION 7: NEARBY SERVICE AREAS (4 Blurb modules)
+Background: #ffffff
+Padding: 60px top/bottom
+================================================================================
+
+Section Heading (centered):
+<h2>Nearby Service Areas</h2>
+
+[NEARBY_LINKS]
+
+
+================================================================================
+SECTION 8: FINAL CTA (Call to Action Module)
+Background: Gradient #1B5E20 → #2E7D32 (135deg)
+Padding: 70px top/bottom
+================================================================================
+
+Title: Need an Eviction Cleanout in [CITY]?
+Body: Free estimates. Same-day service available for [CITY] properties.
+Button 1: Get Your Free Estimate → /contact/
+Button 2: Call (555) 123-4567 → tel:+15551234567

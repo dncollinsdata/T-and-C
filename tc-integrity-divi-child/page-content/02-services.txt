@@ -1,0 +1,169 @@
+================================================================================
+T&C INTEGRITY — SERVICES PAGE
+Build in Divi 5 Visual Builder
+================================================================================
+
+================================================================================
+SECTION 1: HERO (Fullwidth Header)
+Background: #1B5E20 with overlay rgba(27,94,32,0.85)
+Padding: 120px top/bottom
+================================================================================
+
+Title: Our Services
+Subtitle: Comprehensive junk removal and deep cleaning solutions for every property need.
+Settings: Montserrat 48px Extra Bold White, centered
+
+
+================================================================================
+SECTION 2: EVICTION JUNK REMOVAL (2-column: Image left, Text right)
+Background: #ffffff
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Image Module:
+  Upload eviction cleanout before/after photo
+  Alt: Eviction junk removal in progress
+
+Column 2 — Text Module:
+<h2>Eviction Junk Removal</h2>
+<p>When tenants leave behind a mess, we make it disappear. Our eviction junk removal service is designed specifically for landlords and property managers who need fast, reliable turnover.</p>
+
+<h4>What We Remove:</h4>
+<ul>
+<li>Abandoned furniture and personal belongings</li>
+<li>Old mattresses, box springs, and bedding</li>
+<li>Appliances (refrigerators, stoves, washers, dryers)</li>
+<li>Electronics and e-waste</li>
+<li>Trash bags, loose debris, and clutter</li>
+<li>Hazardous materials (with proper handling)</li>
+</ul>
+
+<p><strong>Typical turnaround:</strong> 1-2 days from booking to completion.</p>
+
+Column 2 — Button:
+  Text: Schedule a Cleanout → /contact/
+
+
+================================================================================
+SECTION 3: DEEP CLEANING (2-column: Text left, Image right)
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Text Module:
+<h2>Deep Cleaning Services</h2>
+<p>Our professional deep cleaning goes far beyond surface-level tidying. We restore properties to move-in ready condition with thorough sanitation and attention to every detail.</p>
+
+<h4>Our Deep Clean Includes:</h4>
+<ul>
+<li>Kitchen deep clean — cabinets, appliances, counters, floors</li>
+<li>Bathroom sanitization — toilets, tubs, tile, grout</li>
+<li>Floor cleaning — sweep, mop, vacuum all surfaces</li>
+<li>Wall and baseboard washing</li>
+<li>Window and sill cleaning (interior)</li>
+<li>Carpet shampooing and stain treatment</li>
+<li>Odor removal and deodorizing</li>
+<li>Light fixture and vent cleaning</li>
+</ul>
+
+<p>Perfect for post-eviction, move-out, estate, and property rehab situations.</p>
+
+Column 1 — Button:
+  Text: Book a Deep Clean → /contact/
+
+Column 2 — Image Module:
+  Upload deep cleaning action photo
+
+
+================================================================================
+SECTION 4: FURNITURE & APPLIANCE REMOVAL (2-column: Image left, Text right)
+Background: #ffffff
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Image Module:
+  Upload furniture removal photo
+
+Column 2 — Text Module:
+<h2>Furniture & Appliance Removal</h2>
+<p>Heavy, bulky items that regular trash services won't take? That's our specialty. We safely remove and responsibly dispose of large items from any floor of your property.</p>
+
+<h4>Items We Handle:</h4>
+<ul>
+<li>Sofas, recliners, and sectionals</li>
+<li>Mattresses and bed frames</li>
+<li>Dining tables, desks, and dressers</li>
+<li>Refrigerators, ovens, dishwashers</li>
+<li>Washers, dryers, and water heaters</li>
+<li>TVs, computers, and electronics</li>
+</ul>
+
+<p>We donate usable items to local charities and recycle materials whenever possible.</p>
+
+Column 2 — Button:
+  Text: Get a Quote → /contact/
+
+
+================================================================================
+SECTION 5: PROPERTY CLEANOUT (2-column: Text left, Image right)
+Background: #f5f9f3
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Text Module:
+<h2>Full Property Cleanout</h2>
+<p>Whether it's an estate cleanout, foreclosure, hoarding situation, or rental property turnover — we clear it all. Our team works efficiently to empty entire properties from top to bottom.</p>
+
+<h4>We Handle:</h4>
+<ul>
+<li>Estate and inheritance cleanouts</li>
+<li>Foreclosure property clearing</li>
+<li>Hoarding cleanup (compassionate, discreet)</li>
+<li>Rental property turnovers</li>
+<li>Garage, attic, and basement clearing</li>
+<li>Storage unit cleanouts</li>
+</ul>
+
+Column 1 — Button:
+  Text: Schedule a Cleanout → /contact/
+
+Column 2 — Image Module:
+  Upload property cleanout photo
+
+
+================================================================================
+SECTION 6: DEBRIS & YARD CLEANUP (2-column: Image left, Text right)
+Background: #ffffff
+Padding: 80px top/bottom
+================================================================================
+
+Column 1 — Image Module:
+  Upload debris/yard cleanup photo
+
+Column 2 — Text Module:
+<h2>Debris Removal & Yard Cleanup</h2>
+<p>From construction leftovers to overgrown yards, we haul it all away so your property looks its best.</p>
+
+<h4>Services Include:</h4>
+<ul>
+<li>Construction and renovation debris</li>
+<li>Drywall, lumber, tile, and flooring removal</li>
+<li>Yard waste — branches, stumps, leaves</li>
+<li>Old fencing, sheds, and outdoor structures</li>
+<li>Hot tub and play equipment removal</li>
+<li>Gravel, dirt, and concrete hauling</li>
+</ul>
+
+Column 2 — Button:
+  Text: Get a Free Estimate → /contact/
+
+
+================================================================================
+SECTION 7: CTA BANNER (Call to Action Module)
+Background: Gradient #1B5E20 → #2E7D32 (135deg)
+Padding: 70px top/bottom
+================================================================================
+
+Title: Need a Custom Solution?
+Body: Every property is different. Contact us for a personalized plan and free estimate tailored to your specific needs.
+Button: Contact Us Today → /contact/
