@@ -1,5 +1,7 @@
 {
-  "context": "et_builder",
+  "context": "et_builder_layouts",
+  "data": {},
+  "presets": "",
   "global_colors": [
     {
       "id": "gcid-color-primary-dark",
@@ -145,12 +147,6 @@
       "value": "rgba(27,94,32,0.85)"
     },
     {
-      "id": "gvid-color-overlay-darker",
-      "type": "colors",
-      "name": "Darker Overlay",
-      "value": "rgba(27,94,32,0.88)"
-    },
-    {
       "id": "gvid-font-heading",
       "type": "fonts",
       "name": "Heading Font",
@@ -199,40 +195,10 @@
       "value": "14px"
     },
     {
-      "id": "gvid-type-hero-size",
-      "type": "numbers",
-      "name": "Hero Title Size",
-      "value": "48px"
-    },
-    {
-      "id": "gvid-type-hero-subtitle-size",
-      "type": "numbers",
-      "name": "Hero Subtitle Size",
-      "value": "18px"
-    },
-    {
-      "id": "gvid-type-counter-size",
-      "type": "numbers",
-      "name": "Counter Number Size",
-      "value": "48px"
-    },
-    {
-      "id": "gvid-type-counter-label-size",
-      "type": "numbers",
-      "name": "Counter Label Size",
-      "value": "14px"
-    },
-    {
       "id": "gvid-type-button-size",
       "type": "numbers",
       "name": "Button Text Size",
       "value": "16px"
-    },
-    {
-      "id": "gvid-space-xs",
-      "type": "numbers",
-      "name": "Space XS",
-      "value": "8px"
     },
     {
       "id": "gvid-space-sm",
@@ -259,12 +225,6 @@
       "value": "60px"
     },
     {
-      "id": "gvid-space-2xl",
-      "type": "numbers",
-      "name": "Space 2XL",
-      "value": "80px"
-    },
-    {
       "id": "gvid-space-section",
       "type": "numbers",
       "name": "Section Padding",
@@ -283,18 +243,6 @@
       "value": "1200px"
     },
     {
-      "id": "gvid-layout-text-max",
-      "type": "numbers",
-      "name": "Text Max Width",
-      "value": "700px"
-    },
-    {
-      "id": "gvid-layout-nav-height",
-      "type": "numbers",
-      "name": "Nav Height",
-      "value": "80px"
-    },
-    {
       "id": "gvid-radius-sm",
       "type": "numbers",
       "name": "Radius Small",
@@ -309,26 +257,14 @@
     {
       "id": "gvid-radius-pill",
       "type": "numbers",
-      "name": "Radius Pill (Buttons)",
+      "name": "Radius Pill",
       "value": "50px"
-    },
-    {
-      "id": "gvid-radius-circle",
-      "type": "numbers",
-      "name": "Radius Circle",
-      "value": "50%"
     },
     {
       "id": "gvid-string-company-name",
       "type": "strings",
       "name": "Company Name",
       "value": "T&C Integrity & Reliable Trash Services"
-    },
-    {
-      "id": "gvid-string-tagline",
-      "type": "strings",
-      "name": "Tagline",
-      "value": "Integrity & Reliable Trash Services"
     },
     {
       "id": "gvid-string-phone",
@@ -355,12 +291,6 @@
       "value": "Get a Free Estimate"
     },
     {
-      "id": "gvid-string-cta-phone",
-      "type": "strings",
-      "name": "Phone CTA Text",
-      "value": "Call (555) 123-4567"
-    },
-    {
       "id": "gvid-string-copyright",
       "type": "strings",
       "name": "Copyright",
@@ -379,12 +309,6 @@
       "value": "/contact/"
     },
     {
-      "id": "gvid-link-services",
-      "type": "links",
-      "name": "Services Page",
-      "value": "/services/"
-    },
-    {
       "id": "gvid-link-phone",
       "type": "links",
       "name": "Phone Link",
@@ -396,5 +320,8 @@
       "name": "Email Link",
       "value": "mailto:info@tcintegritytrash.com"
     }
-  ]
+  ],
+  "canvases": [],
+  "images": [],
+  "thumbnails": []
 }

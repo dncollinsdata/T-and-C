@@ -2,17 +2,41 @@
 T&C INTEGRITY — DIVI 5 DESIGN SYSTEM — FULL IMPORT GUIDE
 ================================================================================
 
-Import these files IN THIS ORDER on a clean Divi 5 site.
-Importing out of order may cause missing style references.
+All files now use the Divi 5.2.1 native format (context: et_builder_layouts)
+with WordPress block comments (<!-- wp:divi/... -->).
 
-Files in this folder:
-  1. TC-Integrity_Presets.json           → Module presets
-  2. TC-Integrity_Global-Variables.json  → Colors, fonts, spacing, strings
-  3. TC-Integrity_Theme-Customizer.json  → Baseline WP theme settings
-  4. TC-Integrity_Theme-Builder-Templates.json → Header/footer reference
+Files:
+  divi5-design-system/
+    TC-Integrity_Global-Variables.json  → Colors, fonts, spacing, strings
+    TC-Integrity_Presets.json           → Module presets (reference only*)
+    TC-Integrity_Theme-Customizer.json  → Baseline WP theme settings
+    TC-Integrity_Theme-Builder-Templates.json → Header/footer build reference
+
+  divi5-layouts/
+    TC-Integrity_Pages.json → Homepage, Services, About, Contact
+                              (ALSO includes global_colors + global_variables)
+
+* The Presets file uses the old context format. If it won't import,
+  the presets are documented below for manual creation in the builder.
 
 ================================================================================
-STEP 1: Import Presets
+STEP 1: Import Global Variables + Page Layouts (one file!)
+================================================================================
+File: divi5-layouts/TC-Integrity_Pages.json
+Where: Divi → Divi Library → Import & Export
+Enable: BOTH "Import Global Variables" AND regular import checkboxes
+
+What it does (all in one import):
+  - Creates 4 library layouts: Homepage, Services, About, Contact
+  - Loads 15 global colors into your Divi color picker
+  - Loads 40 global variables (fonts, sizes, spacing, strings, links)
+
+If you prefer to import variables separately (without layouts):
+  File: divi5-design-system/TC-Integrity_Global-Variables.json
+  Same location, enable "Import Global Variables"
+
+================================================================================
+STEP 1b (optional): Import Presets
 ================================================================================
 File: TC-Integrity_Presets.json
 Where: Divi → Divi Library → Import & Export

@@ -102,20 +102,88 @@ def make_layout(post_id, title, slug, content, layout_type="layout"):
         "terms": terms
     }
 
-def make_export(layouts):
+def get_global_colors():
+    return [
+        {"id": "gcid-color-primary-dark", "color": "#1B5E20", "label": "Primary Dark Green"},
+        {"id": "gcid-color-primary", "color": "#2E7D32", "label": "Primary Green"},
+        {"id": "gcid-color-accent", "color": "#4CAF50", "label": "Accent Green"},
+        {"id": "gcid-color-light-green", "color": "#81C784", "label": "Light Green"},
+        {"id": "gcid-color-pale-green", "color": "#E8F5E9", "label": "Pale Green"},
+        {"id": "gcid-color-bg-light", "color": "#f5f9f3", "label": "Light Background"},
+        {"id": "gcid-color-gold", "color": "#C9A84C", "label": "Gold Accent"},
+        {"id": "gcid-color-dark-text", "color": "#1a2e1a", "label": "Dark Text"},
+        {"id": "gcid-color-body-text", "color": "#333333", "label": "Body Text"},
+        {"id": "gcid-color-muted-text", "color": "#666666", "label": "Muted Text"},
+        {"id": "gcid-color-white", "color": "#ffffff", "label": "White"},
+        {"id": "gcid-color-footer-bg", "color": "#0d1f0d", "label": "Footer Dark"},
+        {"id": "gcid-color-success", "color": "#4CAF50", "label": "Success"},
+        {"id": "gcid-color-warning", "color": "#FF9800", "label": "Warning"},
+        {"id": "gcid-color-error", "color": "#F44336", "label": "Error"},
+    ]
+
+def get_global_variables():
+    vars = []
+    var_defs = [
+        ("gvid-color-primary-dark", "colors", "Primary Dark Green", "#1B5E20"),
+        ("gvid-color-primary", "colors", "Primary Green", "#2E7D32"),
+        ("gvid-color-accent", "colors", "Accent Green", "#4CAF50"),
+        ("gvid-color-light-green", "colors", "Light Green", "#81C784"),
+        ("gvid-color-pale-green", "colors", "Pale Green", "#E8F5E9"),
+        ("gvid-color-bg-light", "colors", "Light Background", "#f5f9f3"),
+        ("gvid-color-gold", "colors", "Gold Accent", "#C9A84C"),
+        ("gvid-color-dark-text", "colors", "Dark Text", "#1a2e1a"),
+        ("gvid-color-body-text", "colors", "Body Text", "#333333"),
+        ("gvid-color-white", "colors", "White", "#ffffff"),
+        ("gvid-color-overlay-dark", "colors", "Dark Overlay", "rgba(27,94,32,0.85)"),
+        ("gvid-font-heading", "fonts", "Heading Font", "Montserrat"),
+        ("gvid-font-body", "fonts", "Body Font", "Open Sans"),
+        ("gvid-type-h1-size", "numbers", "H1 Size", "48px"),
+        ("gvid-type-h2-size", "numbers", "H2 Size", "36px"),
+        ("gvid-type-h3-size", "numbers", "H3 Size", "28px"),
+        ("gvid-type-h4-size", "numbers", "H4 Size", "22px"),
+        ("gvid-type-body-size", "numbers", "Body Font Size", "16px"),
+        ("gvid-type-small-size", "numbers", "Small Text Size", "14px"),
+        ("gvid-type-button-size", "numbers", "Button Text Size", "16px"),
+        ("gvid-space-sm", "numbers", "Space SM", "16px"),
+        ("gvid-space-md", "numbers", "Space MD", "24px"),
+        ("gvid-space-lg", "numbers", "Space LG", "40px"),
+        ("gvid-space-xl", "numbers", "Space XL", "60px"),
+        ("gvid-space-section", "numbers", "Section Padding", "80px"),
+        ("gvid-space-hero", "numbers", "Hero Padding", "120px"),
+        ("gvid-layout-container", "numbers", "Container Max Width", "1200px"),
+        ("gvid-radius-sm", "numbers", "Radius Small", "4px"),
+        ("gvid-radius-md", "numbers", "Radius Medium", "8px"),
+        ("gvid-radius-pill", "numbers", "Radius Pill", "50px"),
+        ("gvid-string-company-name", "strings", "Company Name", "T&C Integrity & Reliable Trash Services"),
+        ("gvid-string-phone", "strings", "Phone Number", "(555) 123-4567"),
+        ("gvid-string-email", "strings", "Email", "info@tcintegritytrash.com"),
+        ("gvid-string-hours", "strings", "Business Hours", "Mon-Sat: 7AM - 7PM"),
+        ("gvid-string-cta-primary", "strings", "Primary CTA Text", "Get a Free Estimate"),
+        ("gvid-string-copyright", "strings", "Copyright", "© 2026 T&C Integrity & Reliable Trash Services. All rights reserved."),
+        ("gvid-link-site", "links", "Website URL", "https://tcintegritytrash.com"),
+        ("gvid-link-contact", "links", "Contact Page", "/contact/"),
+        ("gvid-link-phone", "links", "Phone Link", "tel:+15551234567"),
+        ("gvid-link-email", "links", "Email Link", "mailto:info@tcintegritytrash.com"),
+    ]
+    for vid, vtype, name, value in var_defs:
+        vars.append({"id": vid, "type": vtype, "name": name, "value": value})
+    return vars
+
+def make_export(layouts, include_design_system=True):
     data = {}
     for l in layouts:
         data[str(l["ID"])] = l
-    return {
+    export = {
         "context": "et_builder_layouts",
         "data": data,
         "presets": "",
-        "global_colors": [],
-        "global_variables": [],
+        "global_colors": get_global_colors() if include_design_system else [],
+        "global_variables": get_global_variables() if include_design_system else [],
         "canvases": [],
         "images": [],
         "thumbnails": []
     }
+    return export
 
 # ============================================================
 # HOMEPAGE
@@ -357,6 +425,7 @@ def build_contact():
 # ASSEMBLE AND WRITE
 # ============================================================
 outdir = "/home/user/T-and-C/tc-integrity-divi-child/divi5-layouts"
+ds_outdir = "/home/user/T-and-C/tc-integrity-divi-child/divi5-design-system"
 
 layouts = [
     make_layout(1001, "TC Integrity - Homepage", "tc-integrity-homepage", build_homepage()),
@@ -365,10 +434,25 @@ layouts = [
     make_layout(1004, "TC Integrity - Contact", "tc-integrity-contact", build_contact()),
 ]
 
-export = make_export(layouts)
-
+# 1. Full export: pages + design system (colors, variables)
+export_full = make_export(layouts, include_design_system=True)
 with open(f"{outdir}/TC-Integrity_Pages.json", "w") as f:
-    json.dump(export, f, ensure_ascii=False)
-    print(f"Written: TC-Integrity_Pages.json ({len(json.dumps(export))} bytes)")
+    json.dump(export_full, f, ensure_ascii=False)
+    print(f"Written: TC-Integrity_Pages.json ({len(json.dumps(export_full))} bytes)")
+
+# 2. Standalone global variables file (same working format, no layouts)
+vars_export = {
+    "context": "et_builder_layouts",
+    "data": {},
+    "presets": "",
+    "global_colors": get_global_colors(),
+    "global_variables": get_global_variables(),
+    "canvases": [],
+    "images": [],
+    "thumbnails": []
+}
+with open(f"{ds_outdir}/TC-Integrity_Global-Variables.json", "w") as f:
+    json.dump(vars_export, f, ensure_ascii=False, indent=2)
+    print(f"Written: TC-Integrity_Global-Variables.json ({len(json.dumps(vars_export))} bytes)")
 
 print("Done!")
