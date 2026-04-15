@@ -1,0 +1,387 @@
+{
+  "context": "et_builder",
+  "presets": [
+    {
+      "id": "preset-button-primary",
+      "name": "TC Primary Button",
+      "module_type": "et_pb_button",
+      "is_default": true,
+      "settings": {
+        "custom_button": "on",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#4CAF50",
+        "button_border_width": "0px",
+        "button_border_radius": "50px",
+        "button_font": "Montserrat|700||on|||||",
+        "button_text_size": "16px",
+        "button_letter_spacing": "1px",
+        "button_bg_color__hover": "#1B5E20",
+        "button_text_color__hover": "#ffffff"
+      }
+    },
+    {
+      "id": "preset-button-outline-white",
+      "name": "TC Outline Button (White)",
+      "module_type": "et_pb_button",
+      "is_default": false,
+      "settings": {
+        "custom_button": "on",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "rgba(0,0,0,0)",
+        "button_border_width": "2px",
+        "button_border_color": "#ffffff",
+        "button_border_radius": "50px",
+        "button_font": "Montserrat|700||on|||||",
+        "button_text_size": "16px",
+        "button_letter_spacing": "1px",
+        "button_bg_color__hover": "#ffffff",
+        "button_text_color__hover": "#1B5E20"
+      }
+    },
+    {
+      "id": "preset-button-outline-green",
+      "name": "TC Outline Button (Green)",
+      "module_type": "et_pb_button",
+      "is_default": false,
+      "settings": {
+        "custom_button": "on",
+        "button_text_color": "#2E7D32",
+        "button_bg_color": "rgba(0,0,0,0)",
+        "button_border_width": "2px",
+        "button_border_color": "#2E7D32",
+        "button_border_radius": "50px",
+        "button_font": "Montserrat|700||on|||||",
+        "button_text_size": "16px",
+        "button_letter_spacing": "1px",
+        "button_bg_color__hover": "#2E7D32",
+        "button_text_color__hover": "#ffffff"
+      }
+    },
+    {
+      "id": "preset-button-gold",
+      "name": "TC Gold CTA Button",
+      "module_type": "et_pb_button",
+      "is_default": false,
+      "settings": {
+        "custom_button": "on",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#C9A84C",
+        "button_border_width": "0px",
+        "button_border_radius": "50px",
+        "button_font": "Montserrat|700||on|||||",
+        "button_text_size": "16px",
+        "button_letter_spacing": "1px",
+        "button_bg_color__hover": "#b8943f",
+        "button_text_color__hover": "#ffffff"
+      }
+    },
+    {
+      "id": "preset-text-section-heading",
+      "name": "TC Section Heading (Centered)",
+      "module_type": "et_pb_text",
+      "is_default": false,
+      "settings": {
+        "text_orientation": "center",
+        "header_2_font": "Montserrat|700|||||||",
+        "header_2_text_color": "#1a2e1a",
+        "header_2_font_size": "36px",
+        "header_2_line_height": "1.2em",
+        "text_font": "Open Sans||||||||",
+        "text_text_color": "#666666",
+        "text_font_size": "18px",
+        "text_line_height": "1.7em"
+      }
+    },
+    {
+      "id": "preset-text-body",
+      "name": "TC Body Text",
+      "module_type": "et_pb_text",
+      "is_default": true,
+      "settings": {
+        "text_font": "Open Sans||||||||",
+        "text_text_color": "#333333",
+        "text_font_size": "16px",
+        "text_line_height": "1.7em",
+        "header_2_font": "Montserrat|700|||||||",
+        "header_2_text_color": "#1a2e1a",
+        "header_3_font": "Montserrat|700|||||||",
+        "header_3_text_color": "#1B5E20",
+        "header_4_font": "Montserrat|600|||||||",
+        "header_4_text_color": "#1a2e1a",
+        "link_option_url_new_window": "off"
+      }
+    },
+    {
+      "id": "preset-text-white-on-dark",
+      "name": "TC White Text (Dark Background)",
+      "module_type": "et_pb_text",
+      "is_default": false,
+      "settings": {
+        "text_font": "Open Sans||||||||",
+        "text_text_color": "rgba(255,255,255,0.9)",
+        "text_font_size": "16px",
+        "text_line_height": "1.7em",
+        "header_2_font": "Montserrat|700|||||||",
+        "header_2_text_color": "#ffffff",
+        "header_3_font": "Montserrat|700|||||||",
+        "header_3_text_color": "#ffffff",
+        "header_4_font": "Montserrat|600|||||||",
+        "header_4_text_color": "#81C784"
+      }
+    },
+    {
+      "id": "preset-blurb-service-card",
+      "name": "TC Service Card Blurb",
+      "module_type": "et_pb_blurb",
+      "is_default": true,
+      "settings": {
+        "use_icon": "on",
+        "icon_color": "#2E7D32",
+        "icon_placement": "top",
+        "header_font": "Montserrat|700|||||||",
+        "header_text_color": "#1B5E20",
+        "header_font_size": "20px",
+        "body_font": "Open Sans||||||||",
+        "body_text_color": "#666666",
+        "body_font_size": "15px",
+        "body_line_height": "1.7em",
+        "text_orientation": "center",
+        "custom_padding": "30px|25px|30px|25px|true|true",
+        "border_radii": "on|8px|8px|8px|8px",
+        "box_shadow_style": "preset1",
+        "box_shadow_blur": "20px",
+        "box_shadow_color": "rgba(0,0,0,0.1)"
+      }
+    },
+    {
+      "id": "preset-blurb-icon-circle",
+      "name": "TC Blurb with Circle Icon",
+      "module_type": "et_pb_blurb",
+      "is_default": false,
+      "settings": {
+        "use_icon": "on",
+        "icon_color": "#ffffff",
+        "use_circle": "on",
+        "circle_color": "#2E7D32",
+        "icon_placement": "top",
+        "header_font": "Montserrat|700|||||||",
+        "header_text_color": "#1B5E20",
+        "header_font_size": "20px",
+        "body_font": "Open Sans||||||||",
+        "body_text_color": "#666666",
+        "body_font_size": "15px",
+        "body_line_height": "1.7em",
+        "text_orientation": "center"
+      }
+    },
+    {
+      "id": "preset-blurb-nearby-city",
+      "name": "TC Nearby City Link Blurb",
+      "module_type": "et_pb_blurb",
+      "is_default": false,
+      "settings": {
+        "use_icon": "on",
+        "font_icon": "&#xe0e3;||divi||400",
+        "icon_color": "#2E7D32",
+        "icon_placement": "top",
+        "header_font": "Montserrat|700|||||||",
+        "header_text_color": "#1B5E20",
+        "header_font_size": "18px",
+        "body_font": "Open Sans||||||||",
+        "body_text_color": "#666666",
+        "body_font_size": "14px",
+        "text_orientation": "center"
+      }
+    },
+    {
+      "id": "preset-cta-green-banner",
+      "name": "TC Green CTA Banner",
+      "module_type": "et_pb_cta",
+      "is_default": true,
+      "settings": {
+        "header_font": "Montserrat|800|||||||",
+        "header_text_color": "#ffffff",
+        "header_font_size": "36px",
+        "body_font": "Open Sans||||||||",
+        "body_text_color": "rgba(255,255,255,0.9)",
+        "body_font_size": "18px",
+        "body_line_height": "1.7em",
+        "background_color": "rgba(0,0,0,0)",
+        "custom_button": "on",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#4CAF50",
+        "button_border_radius": "50px",
+        "button_font": "Montserrat|700||on|||||",
+        "button_text_size": "16px",
+        "button_letter_spacing": "1px",
+        "text_orientation": "center"
+      }
+    },
+    {
+      "id": "preset-testimonial-card",
+      "name": "TC Testimonial Card",
+      "module_type": "et_pb_testimonial",
+      "is_default": true,
+      "settings": {
+        "body_font": "Open Sans|500|||||||",
+        "body_text_color": "#555555",
+        "body_font_size": "16px",
+        "body_line_height": "1.8em",
+        "author_name_font": "Montserrat|700|||||||",
+        "author_name_text_color": "#1B5E20",
+        "author_details_font": "Open Sans||||||||",
+        "author_details_text_color": "#999999",
+        "border_radii": "on|8px|8px|8px|8px",
+        "box_shadow_style": "preset1",
+        "box_shadow_blur": "20px",
+        "box_shadow_color": "rgba(0,0,0,0.1)",
+        "background_color": "#ffffff"
+      }
+    },
+    {
+      "id": "preset-accordion-faq",
+      "name": "TC FAQ Accordion",
+      "module_type": "et_pb_accordion",
+      "is_default": true,
+      "settings": {
+        "toggle_font": "Montserrat|600|||||||",
+        "toggle_text_color": "#1B5E20",
+        "toggle_font_size": "16px",
+        "body_font": "Open Sans||||||||",
+        "body_text_color": "#555555",
+        "body_font_size": "15px",
+        "body_line_height": "1.7em",
+        "toggle_icon_color": "#4CAF50",
+        "open_toggle_background_color": "#ffffff",
+        "closed_toggle_background_color": "#ffffff",
+        "border_radii": "on|8px|8px|8px|8px",
+        "border_width_all": "1px",
+        "border_color_all": "#e8e8e8"
+      }
+    },
+    {
+      "id": "preset-number-counter-white",
+      "name": "TC Stats Counter (White on Green)",
+      "module_type": "et_pb_number_counter",
+      "is_default": true,
+      "settings": {
+        "title_font": "Montserrat|600||on|||||",
+        "title_text_color": "#81C784",
+        "title_font_size": "14px",
+        "title_letter_spacing": "1px",
+        "number_font": "Montserrat|900|||||||",
+        "number_text_color": "#ffffff",
+        "number_font_size": "48px",
+        "text_orientation": "center",
+        "percent_sign": "off"
+      }
+    },
+    {
+      "id": "preset-contact-form",
+      "name": "TC Contact Form",
+      "module_type": "et_pb_contact_form",
+      "is_default": true,
+      "settings": {
+        "captcha": "off",
+        "form_field_font": "Open Sans||||||||",
+        "form_field_text_color": "#333333",
+        "form_field_font_size": "15px",
+        "custom_button": "on",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#4CAF50",
+        "button_border_radius": "50px",
+        "button_font": "Montserrat|700||on|||||",
+        "button_text_size": "16px",
+        "border_radii": "on|8px|8px|8px|8px"
+      }
+    },
+    {
+      "id": "preset-fullwidth-header-hero",
+      "name": "TC Hero Header",
+      "module_type": "et_pb_fullwidth_header",
+      "is_default": true,
+      "settings": {
+        "text_orientation": "center",
+        "content_orientation": "center",
+        "title_font": "Montserrat|800|||||||",
+        "title_text_color": "#ffffff",
+        "title_font_size": "48px",
+        "subhead_font": "Open Sans||||||||",
+        "subhead_text_color": "rgba(255,255,255,0.95)",
+        "subhead_font_size": "18px",
+        "background_overlay_color": "rgba(27,94,32,0.85)",
+        "custom_button_one": "on",
+        "button_one_text_color": "#ffffff",
+        "button_one_bg_color": "#4CAF50",
+        "button_one_border_radius": "50px",
+        "button_one_font": "Montserrat|700||on|||||",
+        "custom_button_two": "on",
+        "button_two_text_color": "#ffffff",
+        "button_two_bg_color": "rgba(0,0,0,0)",
+        "button_two_border_color": "#ffffff",
+        "button_two_border_radius": "50px",
+        "button_two_font": "Montserrat|700||on|||||"
+      }
+    },
+    {
+      "id": "preset-image-card",
+      "name": "TC Image Card (Rounded Shadow)",
+      "module_type": "et_pb_image",
+      "is_default": true,
+      "settings": {
+        "border_radii": "on|8px|8px|8px|8px",
+        "box_shadow_style": "preset1",
+        "box_shadow_blur": "20px",
+        "box_shadow_color": "rgba(0,0,0,0.1)"
+      }
+    },
+    {
+      "id": "preset-section-white",
+      "name": "TC Section White",
+      "module_type": "et_pb_section",
+      "is_default": true,
+      "settings": {
+        "background_color": "#ffffff",
+        "custom_padding": "80px||80px||true|false"
+      }
+    },
+    {
+      "id": "preset-section-light",
+      "name": "TC Section Light Green",
+      "module_type": "et_pb_section",
+      "is_default": false,
+      "settings": {
+        "background_color": "#f5f9f3",
+        "custom_padding": "80px||80px||true|false"
+      }
+    },
+    {
+      "id": "preset-section-dark-gradient",
+      "name": "TC Section Dark Green Gradient",
+      "module_type": "et_pb_section",
+      "is_default": false,
+      "settings": {
+        "background_enable_color": "on",
+        "background_color": "#1B5E20",
+        "use_background_color_gradient": "on",
+        "background_color_gradient_direction": "135deg",
+        "background_color_gradient_stops": "#1B5E20 0%|#2E7D32 100%",
+        "custom_padding": "70px||70px||true|false"
+      }
+    },
+    {
+      "id": "preset-section-stats",
+      "name": "TC Stats Counter Section",
+      "module_type": "et_pb_section",
+      "is_default": false,
+      "settings": {
+        "background_enable_color": "on",
+        "background_color": "#1B5E20",
+        "use_background_color_gradient": "on",
+        "background_color_gradient_direction": "135deg",
+        "background_color_gradient_stops": "#1B5E20 0%|#2E7D32 100%",
+        "custom_padding": "50px||50px||true|false"
+      }
+    }
+  ]
+}

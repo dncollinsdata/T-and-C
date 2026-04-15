@@ -1,30 +1,135 @@
 ================================================================================
-T&C INTEGRITY — DIVI 5 DESIGN SYSTEM IMPORT ORDER
+T&C INTEGRITY — DIVI 5 DESIGN SYSTEM — FULL IMPORT GUIDE
 ================================================================================
 
 Import these files IN THIS ORDER on a clean Divi 5 site.
 Importing out of order may cause missing style references.
 
+Files in this folder:
+  1. TC-Integrity_Presets.json           → Module presets
+  2. TC-Integrity_Global-Variables.json  → Colors, fonts, spacing, strings
+  3. TC-Integrity_Theme-Customizer.json  → Baseline WP theme settings
+  4. TC-Integrity_Theme-Builder-Templates.json → Header/footer reference
+
 ================================================================================
-STEP 1: Import Global Variables
+STEP 1: Import Presets
+================================================================================
+File: TC-Integrity_Presets.json
+Where: Divi → Divi Library → Import & Export
+Enable: "Import Presets" checkbox
+
+What it does: Loads 21 pre-configured module presets so every module
+you add to a page is already styled with T&C branding:
+
+  BUTTONS (4 presets):
+    - TC Primary Button (green bg, white text, pill shape) — DEFAULT
+    - TC Outline Button White (for dark backgrounds)
+    - TC Outline Button Green (for light backgrounds)
+    - TC Gold CTA Button (premium accent)
+
+  TEXT (3 presets):
+    - TC Body Text (Open Sans 16px, Montserrat headings) — DEFAULT
+    - TC Section Heading (centered, 36px h2, muted subtitle)
+    - TC White Text (for dark green sections)
+
+  BLURBS (3 presets):
+    - TC Service Card Blurb (icon top, shadow card) — DEFAULT
+    - TC Blurb with Circle Icon (green circle, white icon)
+    - TC Nearby City Link Blurb (for service area interlinking)
+
+  OTHER MODULES:
+    - TC Green CTA Banner (transparent bg, white text) — DEFAULT
+    - TC Testimonial Card (shadow card, styled author) — DEFAULT
+    - TC FAQ Accordion (green toggles, bordered) — DEFAULT
+    - TC Stats Counter (white numbers on green) — DEFAULT
+    - TC Contact Form (rounded fields, green button) — DEFAULT
+    - TC Hero Header (green overlay, dual buttons) — DEFAULT
+    - TC Image Card (8px radius, shadow) — DEFAULT
+
+  SECTIONS (4 presets):
+    - TC Section White (80px padding) — DEFAULT
+    - TC Section Light Green (#f5f9f3)
+    - TC Section Dark Green Gradient (135deg)
+    - TC Stats Counter Section (50px padding)
+
+Presets marked DEFAULT auto-apply when you add that module type.
+
+
+================================================================================
+STEP 2: Import Global Variables
 ================================================================================
 File: TC-Integrity_Global-Variables.json
 Where: Divi → Divi Library → Import & Export
 Enable: "Import Global Variables" checkbox
-What it does: Sets up all brand colors, fonts, spacing, radius,
-              and string variables (phone, email, CTA text, etc.)
+
+What it does: Sets up all brand tokens:
+  - 15 global colors (palette swatches)
+  - 11 color variables, 2 font variables
+  - 20 number variables (typography sizes, spacing scale, radii)
+  - 8 string variables (company name, phone, email, CTA text, hours)
+  - 5 link variables (site URL, contact page, phone link, email link)
+
 
 ================================================================================
-STEP 2: Import Theme Customizer Settings
+STEP 3: Import Theme Customizer Settings
 ================================================================================
 File: TC-Integrity_Theme-Customizer.json
 Where: Divi → Theme Customizer → ↑↓ (Import/Export arrows)
-What it does: Sets baseline typography (Montserrat headings,
-              Open Sans body), nav styles, button styles, footer
-              colors, and the 8-color brand palette.
+
+What it does: Sets WordPress-level theme settings:
+  - Navigation: 80px height, Montserrat bold uppercase, #1a2e1a text
+  - Typography: Montserrat headings + Open Sans 16px body
+  - Buttons: #4CAF50 bg, white text, 50px pill radius, uppercase
+  - Footer: #1B5E20 bg, white headings, #81C784 links
+  - 8-color brand palette in Divi color picker
+  - Mobile menu: #1B5E20 bg with white text
+
 
 ================================================================================
-STEP 3: Build Pages Manually in Divi 5 Visual Builder
+STEP 4: Build Header & Footer in Theme Builder
+================================================================================
+Reference: TC-Integrity_Theme-Builder-Templates.json
+Where: Divi → Theme Builder
+
+NOTE: This file is a BUILD REFERENCE, not a direct import.
+Open it and follow the structure to build your header/footer manually
+in the Divi 5 Theme Builder.
+
+HEADER (build as "Global Header"):
+  Section 1 — Top Utility Bar
+    Background: #1B5E20, padding 8px
+    2-column row:
+      Left:  "Mon-Sat: 7AM - 7PM" (white text, 14px)
+      Right: Phone link "(555) 123-4567 — Free Estimates" (#81C784)
+
+  Section 2 — Main Navigation
+    Background: #ffffff, subtle shadow
+    2-column row:
+      Left:  Logo image (upload T&C logo, 54px height)
+      Right: Menu module (primary-menu, right aligned)
+
+FOOTER (build as "Global Footer"):
+  Section 1 — Footer Main
+    Background: #1B5E20, padding 60px top / 40px bottom
+    4-column row:
+      Col 1: Logo (white version) + company description
+      Col 2: "Our Services" links (6 service pages)
+      Col 3: "Service Areas" links (6 cities + "View All")
+      Col 4: "Contact Us" — phone, email, hours
+    All text: rgba(255,255,255,0.75), links: #81C784
+    Column titles: white, Montserrat bold
+
+  Section 2 — Bottom Bar
+    Background: #0d1f0d, padding 20px
+    2-column row:
+      Left:  Copyright text (rgba white 50%)
+      Right: Privacy Policy | Terms of Service links
+
+After building, assign this as the Default Website Template.
+
+
+================================================================================
+STEP 5: Build Pages in Visual Builder
 ================================================================================
 Use the content files in page-content/ as your copy-paste reference:
 
@@ -37,52 +142,65 @@ Use the content files in page-content/ as your copy-paste reference:
 Each file tells you:
   - What Divi module to add (Text, Blurb, CTA, Accordion, etc.)
   - What content to paste into it
-  - What colors/fonts/spacing to apply (use your global variables!)
+  - Which preset to select (they should auto-apply as defaults)
+  - What colors/fonts/spacing to apply
 
-TIP: When setting colors in the Divi 5 builder, click the globe icon
-to reference your Global Variables instead of typing hex codes. This
-way, changing a variable later updates every module that uses it.
+TIPS:
+  - Presets auto-apply! When you add a Button, it's already green pill
+  - Click the globe icon to reference Global Variables for colors
+  - For sections, pick a Section Preset (white, light, or dark gradient)
+  - Clone your first city page to save time on the other 8
+
 
 ================================================================================
-AFTER IMPORT: What to Customize First
+STEP 6: Final Setup
 ================================================================================
 
 1. Upload your logo: Divi → Theme Options → General → Logo
 2. Replace placeholder phone/email in Global Variables:
+   Divi → Divi Library → click a variable → edit value
    - Change (555) 123-4567 → your real number
    - Change info@tcintegritytrash.com → your real email
    - Change tel:+15551234567 → your real phone link
-3. Build pages using the Visual Builder + content files
-4. Upload real photos (team, truck, before/after)
-5. Set up navigation menu (Appearance → Menus)
-6. Install Yoast SEO and paste meta titles/descriptions from city files
+3. Set up navigation: Appearance → Menus → create "Primary Menu"
+4. Set homepage: Settings → Reading → Static page → "Home"
+5. Upload real photos (team, truck, before/after)
+6. Install Yoast SEO, paste meta titles/descriptions from city files
+7. Test mobile responsiveness
+8. Test Google Rich Results (schema from child theme functions.php)
+
 
 ================================================================================
-DESIGN VARIABLE REFERENCE (use these in the builder)
+DESIGN VARIABLE QUICK REFERENCE
 ================================================================================
 
 COLORS:
-  Primary Dark Green    #1B5E20   (hero bg, footer, dark sections)
-  Primary Green         #2E7D32   (links, icons, circles)
-  Accent Green          #4CAF50   (buttons, CTAs, highlights)
-  Light Green           #81C784   (footer links, subtle accents)
-  Pale Green            #E8F5E9   (sidebar CTA backgrounds)
-  Light Background      #f5f9f3   (alternating section backgrounds)
-  Gold Accent           #C9A84C   (stars, premium badges)
-  Dark Text             #1a2e1a   (headings)
-  Body Text             #333333   (paragraphs)
-  White                 #ffffff   (hero text, button text)
+  Primary Dark Green    #1B5E20   hero bg, footer, dark sections
+  Primary Green         #2E7D32   links, icons, circles
+  Accent Green          #4CAF50   buttons, CTAs, highlights
+  Light Green           #81C784   footer links, subtle accents
+  Pale Green            #E8F5E9   sidebar CTA backgrounds
+  Light Background      #f5f9f3   alternating section backgrounds
+  Gold Accent           #C9A84C   stars, premium badges
+  Dark Text             #1a2e1a   headings
+  Body Text             #333333   paragraphs
+  White                 #ffffff   hero text, button text
 
 FONTS:
-  Headings: Montserrat (Bold/ExtraBold)
-  Body: Open Sans (Regular/Medium)
+  Headings: Montserrat (Bold 700 / ExtraBold 800)
+  Body: Open Sans (Regular 400 / Medium 500)
 
 SPACING:
-  Section padding: 80px top/bottom
-  Hero padding: 120px top/bottom
-  Stats bar: 50px top/bottom
+  Section padding: 80px    Hero padding: 120px
+  Stats bar: 50px          CTA banner: 70px
 
 RADIUS:
-  Buttons: 50px (pill shape)
-  Cards/images: 8px
-  Icons: 50% (circle)
+  Buttons: 50px (pill)     Cards/images: 8px
+  Icons: 50% (circle)      Form fields: 8px
+
+PRESET MODULE DEFAULTS:
+  Button → green pill      Blurb → shadow card
+  CTA → transparent on dark  Testimonial → white card
+  Accordion → green toggles  Counter → white on green
+  Hero → green overlay     Image → rounded shadow
+  Section → white 80px     Text → Open Sans body
