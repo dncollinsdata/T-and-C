@@ -1,0 +1,400 @@
+{
+  "context": "et_builder",
+  "global_colors": [
+    {
+      "id": "gcid-color-primary-dark",
+      "color": "#1B5E20",
+      "label": "Primary Dark Green"
+    },
+    {
+      "id": "gcid-color-primary",
+      "color": "#2E7D32",
+      "label": "Primary Green"
+    },
+    {
+      "id": "gcid-color-accent",
+      "color": "#4CAF50",
+      "label": "Accent Green"
+    },
+    {
+      "id": "gcid-color-light-green",
+      "color": "#81C784",
+      "label": "Light Green"
+    },
+    {
+      "id": "gcid-color-pale-green",
+      "color": "#E8F5E9",
+      "label": "Pale Green"
+    },
+    {
+      "id": "gcid-color-bg-light",
+      "color": "#f5f9f3",
+      "label": "Light Background"
+    },
+    {
+      "id": "gcid-color-gold",
+      "color": "#C9A84C",
+      "label": "Gold Accent"
+    },
+    {
+      "id": "gcid-color-dark-text",
+      "color": "#1a2e1a",
+      "label": "Dark Text"
+    },
+    {
+      "id": "gcid-color-body-text",
+      "color": "#333333",
+      "label": "Body Text"
+    },
+    {
+      "id": "gcid-color-muted-text",
+      "color": "#666666",
+      "label": "Muted Text"
+    },
+    {
+      "id": "gcid-color-white",
+      "color": "#ffffff",
+      "label": "White"
+    },
+    {
+      "id": "gcid-color-footer-bg",
+      "color": "#0d1f0d",
+      "label": "Footer Dark"
+    },
+    {
+      "id": "gcid-color-success",
+      "color": "#4CAF50",
+      "label": "Success"
+    },
+    {
+      "id": "gcid-color-warning",
+      "color": "#FF9800",
+      "label": "Warning"
+    },
+    {
+      "id": "gcid-color-error",
+      "color": "#F44336",
+      "label": "Error"
+    }
+  ],
+  "global_variables": [
+    {
+      "id": "gvid-color-primary-dark",
+      "type": "colors",
+      "name": "Primary Dark Green",
+      "value": "#1B5E20"
+    },
+    {
+      "id": "gvid-color-primary",
+      "type": "colors",
+      "name": "Primary Green",
+      "value": "#2E7D32"
+    },
+    {
+      "id": "gvid-color-accent",
+      "type": "colors",
+      "name": "Accent Green",
+      "value": "#4CAF50"
+    },
+    {
+      "id": "gvid-color-light-green",
+      "type": "colors",
+      "name": "Light Green",
+      "value": "#81C784"
+    },
+    {
+      "id": "gvid-color-pale-green",
+      "type": "colors",
+      "name": "Pale Green",
+      "value": "#E8F5E9"
+    },
+    {
+      "id": "gvid-color-bg-light",
+      "type": "colors",
+      "name": "Light Background",
+      "value": "#f5f9f3"
+    },
+    {
+      "id": "gvid-color-gold",
+      "type": "colors",
+      "name": "Gold Accent",
+      "value": "#C9A84C"
+    },
+    {
+      "id": "gvid-color-dark-text",
+      "type": "colors",
+      "name": "Dark Text",
+      "value": "#1a2e1a"
+    },
+    {
+      "id": "gvid-color-body-text",
+      "type": "colors",
+      "name": "Body Text",
+      "value": "#333333"
+    },
+    {
+      "id": "gvid-color-white",
+      "type": "colors",
+      "name": "White",
+      "value": "#ffffff"
+    },
+    {
+      "id": "gvid-color-overlay-dark",
+      "type": "colors",
+      "name": "Dark Overlay",
+      "value": "rgba(27,94,32,0.85)"
+    },
+    {
+      "id": "gvid-color-overlay-darker",
+      "type": "colors",
+      "name": "Darker Overlay",
+      "value": "rgba(27,94,32,0.88)"
+    },
+    {
+      "id": "gvid-font-heading",
+      "type": "fonts",
+      "name": "Heading Font",
+      "value": "Montserrat"
+    },
+    {
+      "id": "gvid-font-body",
+      "type": "fonts",
+      "name": "Body Font",
+      "value": "Open Sans"
+    },
+    {
+      "id": "gvid-type-h1-size",
+      "type": "numbers",
+      "name": "H1 Size",
+      "value": "48px"
+    },
+    {
+      "id": "gvid-type-h2-size",
+      "type": "numbers",
+      "name": "H2 Size",
+      "value": "36px"
+    },
+    {
+      "id": "gvid-type-h3-size",
+      "type": "numbers",
+      "name": "H3 Size",
+      "value": "28px"
+    },
+    {
+      "id": "gvid-type-h4-size",
+      "type": "numbers",
+      "name": "H4 Size",
+      "value": "22px"
+    },
+    {
+      "id": "gvid-type-body-size",
+      "type": "numbers",
+      "name": "Body Font Size",
+      "value": "16px"
+    },
+    {
+      "id": "gvid-type-small-size",
+      "type": "numbers",
+      "name": "Small Text Size",
+      "value": "14px"
+    },
+    {
+      "id": "gvid-type-hero-size",
+      "type": "numbers",
+      "name": "Hero Title Size",
+      "value": "48px"
+    },
+    {
+      "id": "gvid-type-hero-subtitle-size",
+      "type": "numbers",
+      "name": "Hero Subtitle Size",
+      "value": "18px"
+    },
+    {
+      "id": "gvid-type-counter-size",
+      "type": "numbers",
+      "name": "Counter Number Size",
+      "value": "48px"
+    },
+    {
+      "id": "gvid-type-counter-label-size",
+      "type": "numbers",
+      "name": "Counter Label Size",
+      "value": "14px"
+    },
+    {
+      "id": "gvid-type-button-size",
+      "type": "numbers",
+      "name": "Button Text Size",
+      "value": "16px"
+    },
+    {
+      "id": "gvid-space-xs",
+      "type": "numbers",
+      "name": "Space XS",
+      "value": "8px"
+    },
+    {
+      "id": "gvid-space-sm",
+      "type": "numbers",
+      "name": "Space SM",
+      "value": "16px"
+    },
+    {
+      "id": "gvid-space-md",
+      "type": "numbers",
+      "name": "Space MD",
+      "value": "24px"
+    },
+    {
+      "id": "gvid-space-lg",
+      "type": "numbers",
+      "name": "Space LG",
+      "value": "40px"
+    },
+    {
+      "id": "gvid-space-xl",
+      "type": "numbers",
+      "name": "Space XL",
+      "value": "60px"
+    },
+    {
+      "id": "gvid-space-2xl",
+      "type": "numbers",
+      "name": "Space 2XL",
+      "value": "80px"
+    },
+    {
+      "id": "gvid-space-section",
+      "type": "numbers",
+      "name": "Section Padding",
+      "value": "80px"
+    },
+    {
+      "id": "gvid-space-hero",
+      "type": "numbers",
+      "name": "Hero Padding",
+      "value": "120px"
+    },
+    {
+      "id": "gvid-layout-container",
+      "type": "numbers",
+      "name": "Container Max Width",
+      "value": "1200px"
+    },
+    {
+      "id": "gvid-layout-text-max",
+      "type": "numbers",
+      "name": "Text Max Width",
+      "value": "700px"
+    },
+    {
+      "id": "gvid-layout-nav-height",
+      "type": "numbers",
+      "name": "Nav Height",
+      "value": "80px"
+    },
+    {
+      "id": "gvid-radius-sm",
+      "type": "numbers",
+      "name": "Radius Small",
+      "value": "4px"
+    },
+    {
+      "id": "gvid-radius-md",
+      "type": "numbers",
+      "name": "Radius Medium",
+      "value": "8px"
+    },
+    {
+      "id": "gvid-radius-pill",
+      "type": "numbers",
+      "name": "Radius Pill (Buttons)",
+      "value": "50px"
+    },
+    {
+      "id": "gvid-radius-circle",
+      "type": "numbers",
+      "name": "Radius Circle",
+      "value": "50%"
+    },
+    {
+      "id": "gvid-string-company-name",
+      "type": "strings",
+      "name": "Company Name",
+      "value": "T&C Integrity & Reliable Trash Services"
+    },
+    {
+      "id": "gvid-string-tagline",
+      "type": "strings",
+      "name": "Tagline",
+      "value": "Integrity & Reliable Trash Services"
+    },
+    {
+      "id": "gvid-string-phone",
+      "type": "strings",
+      "name": "Phone Number",
+      "value": "(555) 123-4567"
+    },
+    {
+      "id": "gvid-string-email",
+      "type": "strings",
+      "name": "Email",
+      "value": "info@tcintegritytrash.com"
+    },
+    {
+      "id": "gvid-string-hours",
+      "type": "strings",
+      "name": "Business Hours",
+      "value": "Mon-Sat: 7AM - 7PM"
+    },
+    {
+      "id": "gvid-string-cta-primary",
+      "type": "strings",
+      "name": "Primary CTA Text",
+      "value": "Get a Free Estimate"
+    },
+    {
+      "id": "gvid-string-cta-phone",
+      "type": "strings",
+      "name": "Phone CTA Text",
+      "value": "Call (555) 123-4567"
+    },
+    {
+      "id": "gvid-string-copyright",
+      "type": "strings",
+      "name": "Copyright",
+      "value": "© 2026 T&C Integrity & Reliable Trash Services. All rights reserved."
+    },
+    {
+      "id": "gvid-link-site",
+      "type": "links",
+      "name": "Website URL",
+      "value": "https://tcintegritytrash.com"
+    },
+    {
+      "id": "gvid-link-contact",
+      "type": "links",
+      "name": "Contact Page",
+      "value": "/contact/"
+    },
+    {
+      "id": "gvid-link-services",
+      "type": "links",
+      "name": "Services Page",
+      "value": "/services/"
+    },
+    {
+      "id": "gvid-link-phone",
+      "type": "links",
+      "name": "Phone Link",
+      "value": "tel:+15551234567"
+    },
+    {
+      "id": "gvid-link-email",
+      "type": "links",
+      "name": "Email Link",
+      "value": "mailto:info@tcintegritytrash.com"
+    }
+  ]
+}
