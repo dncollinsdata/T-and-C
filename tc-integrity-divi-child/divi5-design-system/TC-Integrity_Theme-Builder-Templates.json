@@ -9,122 +9,12 @@
       "header": {
         "id": "tc-global-header",
         "title": "TC Global Header",
-        "description": "Top utility bar + main navigation with logo. Green utility bar, white nav background, Montserrat menu links.",
-        "build_instructions": "Build this header in Divi > Theme Builder using these sections:",
-        "sections": [
-          {
-            "name": "Top Utility Bar",
-            "description": "Thin dark green bar above main nav with hours and phone CTA",
-            "layout": {
-              "type": "section",
-              "background": "#1B5E20",
-              "padding": "8px 0",
-              "row": {
-                "columns": "1_2,1_2",
-                "column_1": {
-                  "module": "text",
-                  "content": "<span style='color:rgba(255,255,255,0.9);font-size:14px;font-weight:500;'>Mon-Sat: 7AM - 7PM</span>"
-                },
-                "column_2": {
-                  "module": "text",
-                  "alignment": "right",
-                  "content": "<a href='tel:+15551234567' style='color:#81C784;font-size:14px;font-weight:600;text-decoration:none;'>&#9742; (555) 123-4567 — Free Estimates</a>"
-                }
-              }
-            }
-          },
-          {
-            "name": "Main Navigation",
-            "description": "Logo left, menu right, white background",
-            "layout": {
-              "type": "section",
-              "background": "#ffffff",
-              "box_shadow": "0 2px 10px rgba(0,0,0,0.08)",
-              "row": {
-                "columns": "1_4,3_4",
-                "column_1": {
-                  "module": "image",
-                  "description": "Upload T&C logo here",
-                  "max_height": "54px"
-                },
-                "column_2": {
-                  "module": "menu",
-                  "menu_source": "primary-menu",
-                  "alignment": "right",
-                  "font": "Montserrat, 15px, Bold, Uppercase",
-                  "text_color": "#1a2e1a",
-                  "active_color": "#2E7D32",
-                  "dropdown_bg": "#ffffff",
-                  "dropdown_text": "#333333",
-                  "dropdown_line_color": "#4CAF50",
-                  "mobile_bg": "#1B5E20",
-                  "mobile_text": "#ffffff"
-                }
-              }
-            }
-          }
-        ]
+        "post_content": "<!-- wp:divi/placeholder -->\n<!-- wp:divi/section {\"builderVersion\": \"5.2.1\", \"module\": {\"decoration\": {\"background\": {\"desktop\": {\"value\": {\"color\": \"#1B5E20\"}}}}, \"advanced\": {\"spacing\": {\"padding\": {\"desktop\": {\"value\": \"8px||8px||true|false\"}}}}}} -->\n<!-- wp:divi/row {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"columnStructure\": {\"desktop\": {\"value\": \"1_2,1_2\"}}}}} -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_2\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\"} -->\n<span style=\"color:rgba(255,255,255,0.9);font-size:14px;font-weight:500;\">Mon-Sat: 7AM - 7PM</span>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_2\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"text\": {\"text_orientation\": {\"desktop\": {\"value\": \"right\"}}}}}} -->\n<a href=\"tel:+15551234567\" style=\"color:#81C784;font-size:14px;font-weight:600;text-decoration:none;\">&#9742; (555) 123-4567 — Free Estimates</a>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- /wp:divi/row -->\n<!-- /wp:divi/section -->\n<!-- wp:divi/section {\"builderVersion\": \"5.2.1\", \"module\": {\"decoration\": {\"background\": {\"desktop\": {\"value\": {\"color\": \"#ffffff\"}}}, \"boxShadow\": {\"desktop\": {\"value\": {\"style\": \"preset1\", \"blur\": \"10px\", \"color\": \"rgba(0,0,0,0.08)\"}}}}, \"advanced\": {\"spacing\": {\"padding\": {\"desktop\": {\"value\": \"0px||0px||true|false\"}}}}}} -->\n<!-- wp:divi/row {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"columnStructure\": {\"desktop\": {\"value\": \"1_4,3_4\"}}}}} -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_4\"}}}}} -->\n<!-- wp:divi/image {\"builderVersion\": \"5.2.1\", \"module\": {\"decoration\": {\"sizing\": {\"maxHeight\": {\"desktop\": {\"value\": \"54px\"}}}}, \"advanced\": {\"alt\": {\"desktop\": {\"value\": \"T&C Integrity Logo\"}}}}} -->\n[Upload T&amp;C logo here]\n<!-- /wp:divi/image -->\n<!-- /wp:divi/column -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"3_4\"}}}}} -->\n<!-- wp:divi/menu {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"menuSource\": {\"desktop\": {\"value\": \"primary-menu\"}}, \"text\": {\"text_orientation\": {\"desktop\": {\"value\": \"right\"}}}}, \"decoration\": {\"font\": {\"menu\": {\"desktop\": {\"value\": {\"family\": \"Montserrat\", \"size\": \"15px\", \"weight\": \"700\", \"transform\": \"uppercase\"}}}}, \"color\": {\"menu\": {\"desktop\": {\"value\": \"#1a2e1a\"}}, \"active\": {\"desktop\": {\"value\": \"#2E7D32\"}}}, \"background\": {\"dropdown\": {\"desktop\": {\"value\": {\"color\": \"#ffffff\"}}}, \"mobile\": {\"desktop\": {\"value\": {\"color\": \"#1B5E20\"}}}}}}} -->\n<!-- /wp:divi/menu -->\n<!-- /wp:divi/column -->\n<!-- /wp:divi/row -->\n<!-- /wp:divi/section -->\n<!-- /wp:divi/placeholder -->"
       },
       "footer": {
         "id": "tc-global-footer",
         "title": "TC Global Footer",
-        "description": "4-column footer with company info, services links, service areas, and contact info. Dark green background.",
-        "build_instructions": "Build this footer in Divi > Theme Builder using these sections:",
-        "sections": [
-          {
-            "name": "Footer Main",
-            "description": "4-column informational footer",
-            "layout": {
-              "type": "section",
-              "background": "#1B5E20",
-              "padding": "60px 0 40px",
-              "row": {
-                "columns": "1_4,1_4,1_4,1_4",
-                "column_1": {
-                  "module": "text",
-                  "title": "T&C Integrity",
-                  "content_html": "<img src='/wp-content/uploads/tc-logo-white.png' alt='T&C Integrity' style='max-width:180px;margin-bottom:15px;'><p style='color:rgba(255,255,255,0.75);font-size:14px;line-height:1.7;'>Professional eviction junk removal and deep cleaning services. Trusted by property managers and homeowners across Greater Houston and Central Texas.</p>"
-                },
-                "column_2": {
-                  "module": "text",
-                  "title": "Our Services",
-                  "content_html": "<ul style='list-style:none;padding:0;'><li><a href='/services/eviction-junk-removal/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Eviction Junk Removal</a></li><li><a href='/services/deep-cleaning/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Deep Cleaning</a></li><li><a href='/services/furniture-appliance-removal/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Furniture & Appliance Removal</a></li><li><a href='/services/property-cleanout/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Property Cleanout</a></li><li><a href='/services/debris-cleanup/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Debris Cleanup</a></li></ul>"
-                },
-                "column_3": {
-                  "module": "text",
-                  "title": "Service Areas",
-                  "content_html": "<ul style='list-style:none;padding:0;'><li><a href='/service-area/houston/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Houston, TX</a></li><li><a href='/service-area/sugar-land/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Sugar Land, TX</a></li><li><a href='/service-area/katy/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Katy, TX</a></li><li><a href='/service-area/cypress/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>Cypress, TX</a></li><li><a href='/service-area/college-station/' style='color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;'>College Station, TX</a></li><li><a href='/service-area/' style='color:#81C784;text-decoration:none;padding:4px 0;display:block;font-weight:600;'>View All Areas →</a></li></ul>"
-                },
-                "column_4": {
-                  "module": "text",
-                  "title": "Contact Us",
-                  "content_html": "<p style='color:rgba(255,255,255,0.75);font-size:14px;line-height:2;'><strong style='color:#ffffff;'>Phone:</strong><br><a href='tel:+15551234567' style='color:#81C784;text-decoration:none;font-weight:600;'>(555) 123-4567</a></p><p style='color:rgba(255,255,255,0.75);font-size:14px;line-height:2;'><strong style='color:#ffffff;'>Email:</strong><br><a href='mailto:info@tcintegritytrash.com' style='color:#81C784;text-decoration:none;'>info@tcintegritytrash.com</a></p><p style='color:rgba(255,255,255,0.75);font-size:14px;line-height:2;'><strong style='color:#ffffff;'>Hours:</strong><br>Mon-Sat: 7AM - 7PM<br>Sun: By Appointment</p>"
-                }
-              }
-            }
-          },
-          {
-            "name": "Footer Bottom Bar",
-            "description": "Copyright bar at very bottom",
-            "layout": {
-              "type": "section",
-              "background": "#0d1f0d",
-              "padding": "20px 0",
-              "row": {
-                "columns": "1_2,1_2",
-                "column_1": {
-                  "module": "text",
-                  "content": "<span style='color:rgba(255,255,255,0.5);font-size:13px;'>© 2026 T&C Integrity & Reliable Trash Services. All rights reserved.</span>"
-                },
-                "column_2": {
-                  "module": "text",
-                  "alignment": "right",
-                  "content": "<a href='/privacy-policy/' style='color:rgba(255,255,255,0.4);font-size:13px;text-decoration:none;'>Privacy Policy</a> &nbsp;|&nbsp; <a href='/terms/' style='color:rgba(255,255,255,0.4);font-size:13px;text-decoration:none;'>Terms of Service</a>"
-                }
-              }
-            }
-          }
-        ]
+        "post_content": "<!-- wp:divi/placeholder -->\n<!-- wp:divi/section {\"builderVersion\": \"5.2.1\", \"module\": {\"decoration\": {\"background\": {\"desktop\": {\"value\": {\"color\": \"#1B5E20\"}}}}, \"advanced\": {\"spacing\": {\"padding\": {\"desktop\": {\"value\": \"60px||40px||false|false\"}}}}}} -->\n<!-- wp:divi/row {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"columnStructure\": {\"desktop\": {\"value\": \"1_4,1_4,1_4,1_4\"}}}}} -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_4\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\"} -->\n<img src=\"/wp-content/uploads/tc-logo-white.png\" alt=\"T&amp;C Integrity\" style=\"max-width:180px;margin-bottom:15px;\">\n<p style=\"color:rgba(255,255,255,0.75);font-size:14px;line-height:1.7;\">Professional eviction junk removal and deep cleaning services. Trusted by property managers and homeowners across Greater Houston and Central Texas.</p>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_4\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\"} -->\n<h4 style=\"color:#ffffff;font-family:Montserrat;font-weight:700;\">Our Services</h4>\n<ul style=\"list-style:none;padding:0;\"><li><a href=\"/services/eviction-junk-removal/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Eviction Junk Removal</a></li><li><a href=\"/services/deep-cleaning/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Deep Cleaning</a></li><li><a href=\"/services/furniture-appliance-removal/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Furniture &amp; Appliance Removal</a></li><li><a href=\"/services/property-cleanout/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Property Cleanout</a></li><li><a href=\"/services/debris-cleanup/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Debris Cleanup</a></li></ul>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_4\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\"} -->\n<h4 style=\"color:#ffffff;font-family:Montserrat;font-weight:700;\">Service Areas</h4>\n<ul style=\"list-style:none;padding:0;\"><li><a href=\"/service-area/houston/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Houston, TX</a></li><li><a href=\"/service-area/sugar-land/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Sugar Land, TX</a></li><li><a href=\"/service-area/katy/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Katy, TX</a></li><li><a href=\"/service-area/cypress/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">Cypress, TX</a></li><li><a href=\"/service-area/college-station/\" style=\"color:rgba(255,255,255,0.75);text-decoration:none;padding:4px 0;display:block;\">College Station, TX</a></li><li><a href=\"/service-area/\" style=\"color:#81C784;text-decoration:none;padding:4px 0;display:block;font-weight:600;\">View All Areas &rarr;</a></li></ul>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_4\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\"} -->\n<h4 style=\"color:#ffffff;font-family:Montserrat;font-weight:700;\">Contact Us</h4>\n<p style=\"color:rgba(255,255,255,0.75);font-size:14px;line-height:2;\"><strong style=\"color:#ffffff;\">Phone:</strong><br><a href=\"tel:+15551234567\" style=\"color:#81C784;text-decoration:none;font-weight:600;\">(555) 123-4567</a></p>\n<p style=\"color:rgba(255,255,255,0.75);font-size:14px;line-height:2;\"><strong style=\"color:#ffffff;\">Email:</strong><br><a href=\"mailto:info@tcintegritytrash.com\" style=\"color:#81C784;text-decoration:none;\">info@tcintegritytrash.com</a></p>\n<p style=\"color:rgba(255,255,255,0.75);font-size:14px;line-height:2;\"><strong style=\"color:#ffffff;\">Hours:</strong><br>Mon-Sat: 7AM - 7PM<br>Sun: By Appointment</p>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- /wp:divi/row -->\n<!-- /wp:divi/section -->\n<!-- wp:divi/section {\"builderVersion\": \"5.2.1\", \"module\": {\"decoration\": {\"background\": {\"desktop\": {\"value\": {\"color\": \"#0d1f0d\"}}}}, \"advanced\": {\"spacing\": {\"padding\": {\"desktop\": {\"value\": \"20px||20px||true|false\"}}}}}} -->\n<!-- wp:divi/row {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"columnStructure\": {\"desktop\": {\"value\": \"1_2,1_2\"}}}}} -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_2\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\"} -->\n<span style=\"color:rgba(255,255,255,0.5);font-size:13px;\">&copy; 2026 T&amp;C Integrity &amp; Reliable Trash Services. All rights reserved.</span>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- wp:divi/column {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"type\": {\"desktop\": {\"value\": \"1_2\"}}}}} -->\n<!-- wp:divi/text {\"builderVersion\": \"5.2.1\", \"module\": {\"advanced\": {\"text\": {\"text_orientation\": {\"desktop\": {\"value\": \"right\"}}}}}} -->\n<a href=\"/privacy-policy/\" style=\"color:rgba(255,255,255,0.4);font-size:13px;text-decoration:none;\">Privacy Policy</a> &nbsp;|&nbsp; <a href=\"/terms/\" style=\"color:rgba(255,255,255,0.4);font-size:13px;text-decoration:none;\">Terms of Service</a>\n<!-- /wp:divi/text -->\n<!-- /wp:divi/column -->\n<!-- /wp:divi/row -->\n<!-- /wp:divi/section -->\n<!-- /wp:divi/placeholder -->"
       },
       "body": {
         "id": "tc-global-body",

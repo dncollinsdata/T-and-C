@@ -115,39 +115,26 @@ STEP 4: Build Header & Footer in Theme Builder
 Reference: TC-Integrity_Theme-Builder-Templates.json
 Where: Divi → Theme Builder
 
-NOTE: This file is a BUILD REFERENCE, not a direct import.
-Open it and follow the structure to build your header/footer manually
-in the Divi 5 Theme Builder.
+This file now uses Divi 5 native block format (<!-- wp:divi/... -->)
+with full header and footer markup in the post_content fields.
 
-HEADER (build as "Global Header"):
-  Section 1 — Top Utility Bar
-    Background: #1B5E20, padding 8px
-    2-column row:
-      Left:  "Mon-Sat: 7AM - 7PM" (white text, 14px)
-      Right: Phone link "(555) 123-4567 — Free Estimates" (#81C784)
+The header and footer post_content can be used as reference when
+building in Divi > Theme Builder, or copied directly into the
+WordPress editor's Code view.
 
-  Section 2 — Main Navigation
-    Background: #ffffff, subtle shadow
-    2-column row:
-      Left:  Logo image (upload T&C logo, 54px height)
-      Right: Menu module (primary-menu, right aligned)
+HEADER (Global Header) includes:
+  Section 1 — Top Utility Bar (#1B5E20, 8px padding)
+    Left:  "Mon-Sat: 7AM - 7PM" (white text, 14px)
+    Right: Phone link "(555) 123-4567 — Free Estimates" (#81C784)
+  Section 2 — Main Navigation (#ffffff, box shadow)
+    Left:  Logo image (54px max height)
+    Right: Menu module (primary-menu, Montserrat bold uppercase)
 
-FOOTER (build as "Global Footer"):
-  Section 1 — Footer Main
-    Background: #1B5E20, padding 60px top / 40px bottom
-    4-column row:
-      Col 1: Logo (white version) + company description
-      Col 2: "Our Services" links (6 service pages)
-      Col 3: "Service Areas" links (6 cities + "View All")
-      Col 4: "Contact Us" — phone, email, hours
-    All text: rgba(255,255,255,0.75), links: #81C784
-    Column titles: white, Montserrat bold
-
-  Section 2 — Bottom Bar
-    Background: #0d1f0d, padding 20px
-    2-column row:
-      Left:  Copyright text (rgba white 50%)
-      Right: Privacy Policy | Terms of Service links
+FOOTER (Global Footer) includes:
+  Section 1 — Footer Main (#1B5E20, 60px/40px padding)
+    4-column row: Company info, Services links, Service Areas, Contact
+  Section 2 — Bottom Bar (#0d1f0d, 20px padding)
+    Left: Copyright | Right: Privacy Policy / Terms links
 
 After building, assign this as the Default Website Template.
 
